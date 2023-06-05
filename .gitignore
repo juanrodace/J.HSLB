@@ -11,6 +11,8 @@
 .gitignore/
 **/*.nc
 **/*.csv
+**/*.docx
+**/*.pptx
 **/*.grib
 __pycache__/
 
