@@ -1,6 +1,6 @@
 <div align="center">
 <br>
-<img alt="J.HSLB" src=".icons/J.HSLB.svg" width="200px">
+<img alt="J.HSLB" src=".icons/J.HSLB.svg" width="300px">
 <br><b>Curso de Hidráulica a Superficie Libre</b><br>
 Universidad Escuela Colombiana de Ingeniería Julio Garavito<br> 
 Centro de Estudios Hidráulicos<br> 
