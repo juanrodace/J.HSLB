@@ -29,6 +29,7 @@ En el siguiente esquema se presenta la comparación de las dos formas de flujo d
 | Clasificación del flujo en función del espacio. | Flujo uniforme y no uniforme.                                | Flujo uniforme, flujo gradualmente variado (FGV), flujo rápidamente variado (FRV) y flujo espacialmente variado (FEV) . |
 | Efecto de la viscosidad. Clasificación.         | Flujo laminar, en transición y turbulento.                   | Flujo turbulento en su mayoría con algunas excepciones.                                                                 | 
 | Efecto de la gravedad. Clasificación.           | No aplica.                                                   | Flujo crítico, subcrítico y supercrítico.                                                                              | 
+
 <sub><i>Comparación entre flujo en sistemas a presión y flujo a superficie libre.</i></sub><br>
 </div> 
 
