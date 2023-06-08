@@ -44,11 +44,10 @@ ___
 
 ### Control de versiones
 
-| Versión | Descripción                                                       |                    Autor                    | Horas |
-|:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
-| 2022.07 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2022.07 | Inclusión de conceptos.                                           | [juanrodace](https://github.com/juanrodace) |  7.0  |
-| 2022.11 | Desarrollo contenido multimedia.                                  | [juanrodace](https://github.com/juanrodace) |  3.0  |
+| Versión | Descripción                                                        |                    Autor                    | Horas |
+|:-------:|--------------------------------------------------------------------|:-------------------------------------------:|:-----:|
+| 2023.06 | Versión inicial, definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.06 | Inclusión de conceptos.                                            | [juanrodace](https://github.com/juanrodace) |  1.0  |
 
 | [:arrow_backward:Anterior](../../Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/2) | [Siguiente:arrow_forward:](../FundamentalEquations) |
 |---------------------------------------------|-----------------------------------|------------------------------------------------------------------------|-----------------------------------------------------|
