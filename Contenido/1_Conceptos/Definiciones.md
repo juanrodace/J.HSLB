@@ -31,7 +31,6 @@ En el siguiente esquema se presenta la comparación de las dos formas de flujo d
 | Efecto de la gravedad. Clasificación.           | No aplica.                                                   | Flujo crítico, subcrítico y supercrítico.                                                                              | 
 <sub><i>Comparación entre flujo en sistemas a presión y flujo a superficie libre.</i></sub><br>
 </div> 
-</div>
 
 ___
 
@@ -49,9 +48,9 @@ ___
 | 2023.06 | Versión inicial, definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.06 | Inclusión de conceptos.                                            | [juanrodace](https://github.com/juanrodace) |  1.0  |
 
-| [:arrow_backward:Anterior](../../Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/2) | [Siguiente:arrow_forward:](../FundamentalEquations) |
-|---------------------------------------------|-----------------------------------|------------------------------------------------------------------------|-----------------------------------------------------|
+| [:arrow_backward:Anterior](../Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda](https://github.com/juanrodace/J.HSLB/discussions) | [Siguiente:arrow_forward:](../Clasificacion.md) |
+|---------------------------------------------|-----------------------------------|------------------------------------------------------------------------|-------------------------------------------------|
 
-_J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../License.md)._
+_J.HSLB es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../License.md)._
 
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [juanrodace](https://github.com/juanrodace) en GitHub._
