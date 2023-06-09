@@ -17,9 +17,8 @@ En el siguiente esquema se presenta la comparación de las dos formas de flujo d
 
 <div align="center">
 <br>
-<img alt="J.HSLB" src="Graph/1.Comparacion.svg" width="600px">
-<br><sub>Comparación entre flujo en conductos a presión y flujo a superficie libre.
-
+<img alt="J.HSLB" src="Graph/1.Comparacion.svg" width="1000px">
+<br><sub>Comparación entre flujo en conductos a presión y flujo a superficie libre.</sub>
 <br></div>
 
 <div align="center">
@@ -49,7 +48,6 @@ ___
 - Introducción a la hidráulica de canales. Duarte A. Carlos A. 4a Ed., Editorial Universidad Nacional de Colombia. 2016.
 - Flow in open channels. Subramanya K. 3th Ed., Tata McGraw-Hill Publishing. 2009.
 - Fluid mechanics. Fundamentals and Applications.. Cengel Y., Cimbala J. McGraw-Hill.2006.
-- 
 
 ### Control de versiones
 
