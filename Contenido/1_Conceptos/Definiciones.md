@@ -18,7 +18,7 @@ En el siguiente esquema se presenta la comparación de las dos formas de flujo d
 <div align="center">
 <br>
 <img alt="J.HSLB" src="Graph/1.Comparacion.svg" width="1000px">
-<br><sub>Comparación entre flujo en conductos a presión y flujo a superficie libre.</sub>
+<br><sub>Esquema de comparación entre flujo en conductos a presión y flujo a superficie libre.</sub>
 <br><br></div>
 
 <div align="center">
@@ -31,6 +31,7 @@ En el siguiente esquema se presenta la comparación de las dos formas de flujo d
 | Perfil de velocidades.                          | Parabólico.                                                  | Parabólico.                                                                                                             | 
 | Velocidad máxima.                               | En el centro del conducto.                                   | Cerca a la superficie libre dentro del 25% de su profundidad.                                                           | 
 | Longitud característica.                        | Diámetro.                                                    | Radio hidráulico.                                                                                                       | 
+| Geometría.                                      | Circular, en su gran mayoría.                                | Cualquiera, regular e irregular.                                                                                        | 
 | Clasificación del flujo en función del tiempo.  | Flujo permanente y no permanente.                            | Flujo permanente y no permanente.                                                                                       | 
 | Clasificación del flujo en función del espacio. | Flujo uniforme y no uniforme.                                | Flujo uniforme, flujo gradualmente variado (FGV), flujo rápidamente variado (FRV) y flujo espacialmente variado (FEV) . |
 | Efecto de la viscosidad. Clasificación.         | Flujo laminar, en transición y turbulento.                   | Flujo turbulento en su mayoría con algunas excepciones.                                                                 | 
@@ -39,7 +40,31 @@ En el siguiente esquema se presenta la comparación de las dos formas de flujo d
 
 > Comparación entre flujo en sistemas a presión y flujo a superficie libre. _Tomado de Fig.1.19_ [^1]
 
+### Características de la sección transversal
 
+El flujo a superficie libre o en "canales abiertos" puede darse en sistemas **naturales** o **artificiales**. Desde el punto de vista geométrico, el flujo se puede presentar en secciones transversales abiertas (como el caso de los rios, quebradas, zanjas y canales artificiales), o en secciones transversales cerradas (como tuberías de drenaje, sistemas de alcantarillado, túneles y estructuras de paso (culverts)).
+
+<div align="center">
+<br>
+<img alt="J.HSLB" src="Graph/2.Secciones.svg" width="500px">
+<br><sub>Esquema de flujo a superficie libre en secciones transversales abiertas y cerradas.</sub>
+<br><br></div>
+
+Así mismo, un canal que tiene la misma sección transversal y la misma pendiente de fondo se denomina canal **prismático**, mientras que un canal que tiene una sección transversal y/o pendiente variable se denomina canal **no prismático**. Un canal largo puede estar compuesto por varios canales regulares. Una sección transversal normal a la dirección del flujo se denomina sección del canal. Las secciones de canales naturales son, por lo general, muy irregulares y pueden constar de una sección principal y una o más secciones laterales. Los canales o conductos artificiales suelen ser diseñados con secciones de figuras geométricas regulares, más comúnmente trapezoidales, cuadrados, triangulares o circulares para el caso de secciones cerradas.
+
+Ahorra bien, todos los sistemas a superficie libre, comparten un conjunto de características o elementos geométricos que se deben considerar desde el punto de vista hidráulico. Los elementos geométricos son propiedades de una sección de canal que pueden ser definidos por completo por la geometría de la sección y la profundidad de flujo. A continuación se presentan y definen estas características geométricas básicas de las secciones transversales.
+
+* **Profundidad de flujo (y)**:
+* **Profundidad de flujo de la sección (d)**:
+* **Ancho superficial (T)**:
+* **Área hidráulica o de flujo (A)**:
+* **Perímetro hidráulico o mojado (P<sub>m</sub>)**:
+* **Radio hidráulico (R<sub>h</sub>)**:
+* **Profundidad hidráulica (D)**:
+* **Factor de sección para flujo crítico (Z<sub>c</sub>)**:
+* **Factor de transporte para flujo uniforme (U<sub>c</sub>)**:
+
+Para secciones de canal regulares y simples, los elementos geométricos pueden expresarse matemáticamente en términos de la profundidad de flujo y de otras dimensiones de la sección. Para el caso de secciones complicadas y secciones naturales (irregulares), no se puede escribir una expresión algebraica simple, pero pueden prepararse curvas que representen la relación entre estos elementos y la profundidad de flujo.
 ___
 
 ### Referencias
