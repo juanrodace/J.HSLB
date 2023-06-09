@@ -16,6 +16,12 @@ El transporte de fluidos incompresibles o líquidos suele darse de dos formas di
 En el siguiente esquema se presenta la comparación de las dos formas de flujo desde el punto de vista de la energía, en el cual se puede apreciar la diferencia en las líneas de energía y en las de gradiente hidráulico (piezométrica). Así mismo, a continuación se presenta una tabla comparativa que permite contrastar algunas características de las dos clases de flujo.
 
 <div align="center">
+<br>
+<img alt="J.HSLB" src="Graph/1.Comparacion.svg" width="300px">
+<br><sub>Comparación entre flujo en conductos a presión y flujo a superficie libre.</sub>
+<br></div>
+
+<div align="center">
 
 | Característica                                  | Flujo en tuberías a presión                                  | Flujo en conductos a superficie libre                                                                                   |
 |-------------------------------------------------|--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
