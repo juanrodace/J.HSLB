@@ -19,7 +19,7 @@ En el siguiente esquema se presenta la comparación de las dos formas de flujo d
 <br>
 <img alt="J.HSLB" src="Graph/1.Comparacion.svg" width="1000px">
 <br><sub>Comparación entre flujo en conductos a presión y flujo a superficie libre.</sub>
-<br></div>
+<br><br></div>
 
 <div align="center">
 
