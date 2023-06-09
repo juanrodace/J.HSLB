@@ -23,7 +23,7 @@ En el siguiente esquema se presenta la comparación de las dos formas de flujo d
 
 <div align="center">
 
-| Característica                                  | Flujo en tuberías a presión                                  | Flujo en conductos a superficie libre                                                                                   |
+| Característica                                  | Flujo en sistemas a presión                                  | Flujo a superficie libre                                                                                                |
 |-------------------------------------------------|--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Fuerza generadora del flujo.                    | Fuerzas de presión.                                          | Fuerza gravitacional.                                                                                                   | 
 | Presión en la sección transversal               | Hidráulica y uniforme.                                       | Variable y en su mayoría hidrostática.                                                                                  |
