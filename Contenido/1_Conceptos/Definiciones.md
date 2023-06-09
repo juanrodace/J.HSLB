@@ -17,8 +17,9 @@ En el siguiente esquema se presenta la comparación de las dos formas de flujo d
 
 <div align="center">
 <br>
-<img alt="J.HSLB" src="Graph/1.Comparacion.svg" width="300px">
-<br><sub>Comparación entre flujo en conductos a presión y flujo a superficie libre.</sub>
+<img alt="J.HSLB" src="Graph/1.Comparacion.svg" width="600px">
+<br><sub>Comparación entre flujo en conductos a presión y flujo a superficie libre.
+
 <br></div>
 
 <div align="center">
@@ -35,9 +36,10 @@ En el siguiente esquema se presenta la comparación de las dos formas de flujo d
 | Clasificación del flujo en función del espacio. | Flujo uniforme y no uniforme.                                | Flujo uniforme, flujo gradualmente variado (FGV), flujo rápidamente variado (FRV) y flujo espacialmente variado (FEV) . |
 | Efecto de la viscosidad. Clasificación.         | Flujo laminar, en transición y turbulento.                   | Flujo turbulento en su mayoría con algunas excepciones.                                                                 | 
 | Efecto de la gravedad. Clasificación.           | No aplica.                                                   | Flujo crítico, subcrítico y supercrítico.                                                                               | 
+</div>
 
-<sub><i>Comparación entre flujo en sistemas a presión y flujo a superficie libre.</i></sub><br>
-</div> 
+> Comparación entre flujo en sistemas a presión y flujo a superficie libre. _Tomado de Fig.1.19_ [^1]
+
 
 ___
 
@@ -47,6 +49,7 @@ ___
 - Introducción a la hidráulica de canales. Duarte A. Carlos A. 4a Ed., Editorial Universidad Nacional de Colombia. 2016.
 - Flow in open channels. Subramanya K. 3th Ed., Tata McGraw-Hill Publishing. 2009.
 - Fluid mechanics. Fundamentals and Applications.. Cengel Y., Cimbala J. McGraw-Hill.2006.
+- 
 
 ### Control de versiones
 
@@ -61,3 +64,5 @@ ___
 _J.HSLB es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../License.md)._
 
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [juanrodace](https://github.com/juanrodace) en GitHub._
+
+[^1]: Hidráulica de tuberías y canales. Rocha Arturo.
