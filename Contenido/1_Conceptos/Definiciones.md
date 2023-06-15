@@ -83,10 +83,10 @@ ___
 
 ### Control de versiones
 
-| Versión | Descripción                                                        |                    Autor                    | Horas |
-|:-------:|------------:|:---:|
+| Versión |                          Descripción                           |                    Autor                    | Horas |
+|:-------:|:--------------------------------------------------------------|:---:|:---:|
 | 2023.06 | Versión inicial, definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2023.06 | Inclusión de conceptos.                                            | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2023.06 |                    Inclusión de conceptos.                     | [juanrodace](https://github.com/juanrodace) |  3.0  |
 
 | [:arrow_backward:Anterior](Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda](https://github.com/juanrodace/J.HSLB/discussions) | [Siguiente:arrow_forward:](Clasificacion.md) |
 |---------------------------------------|-----------------------------------|----------------------------------------------------------------------|----------------------------------------------|
