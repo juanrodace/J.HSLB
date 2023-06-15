@@ -54,15 +54,22 @@ Así mismo, un canal que tiene la misma sección transversal y la misma pendient
 
 Ahorra bien, todos los sistemas a superficie libre, comparten un conjunto de características o elementos geométricos que se deben considerar desde el punto de vista hidráulico. Los elementos geométricos son propiedades de una sección de canal que pueden ser definidos por completo por la geometría de la sección y la profundidad de flujo. A continuación se presentan y definen estas características geométricas básicas de las secciones transversales.
 
-* **Profundidad de flujo (y)**:
-* **Profundidad de flujo de la sección (d)**:
-* **Ancho superficial (T)**:
-* **Área hidráulica o de flujo (A)**:
-* **Perímetro hidráulico o mojado (P<sub>m</sub>)**:
-* **Radio hidráulico (R<sub>h</sub>)**:
-* **Profundidad hidráulica (D)**:
-* **Factor de sección para flujo crítico (Z<sub>c</sub>)**:
-* **Factor de transporte para flujo uniforme (U<sub>c</sub>)**:
+<div align="center">
+<br>
+<img alt="J.HSLB" src="Graph/3.Geometria.svg" width="500px">
+<br><sub>Esquema representativo de algunas de las características geométricas de los sistemas a superficie libre transversales abiertas y cerradas.</sub>
+<br><br></div>
+
+* **Pendiente del fondo o lecho (S<sub>o</sub>)**: representa la variación de la altura del fondo del canal con respecto la longitud del mismo. Podría relacionarse con el ángulo de inclinación del canal.
+* **Profundidad de flujo (y)**: distancia vertical desde el punto más bajo de la sección transversal del canal hasta la superficie libre.
+* **Profundidad de flujo de la sección (d)**: es la profundidad de flujo normal o perpendicular a la dirección del flujo
+* **Ancho superficial (T)**: es el ancho de la sección del canal en la superficie libre.
+* **Área hidráulica o de flujo (A)**: es el área de la sección transversal del canal normal a la dirección del flujo.
+* **Perímetro hidráulico o mojado (P<sub>m</sub>)**: se define como la longitud de la línea de intersección de la superficie mojada del canal con un plano transversal perpendicular a la dirección del flujo.
+* **Radio hidráulico (R<sub>h</sub>)**: es la relación del área (A) y el perímetro mojado (P<sub>m</sub>).
+* **Profundidad hidráulica (D)**: es la relación entre el área mojada (A) y el ancho superficial (T).
+* **Factor de sección para flujo crítico (Z<sub>c</sub>)**: se definen como el producto del área (A) y la raíz cuadrada de la profundidad hidráulica (D).
+* **Factor de transporte para flujo uniforme (U<sub>c</sub>)**: se define como el producto del área (A) y el radio hidráulico (R) elevado a la potencia <sup>2</sup>/<sub>3</sub>.
 
 Para secciones de canal regulares y simples, los elementos geométricos pueden expresarse matemáticamente en términos de la profundidad de flujo y de otras dimensiones de la sección. Para el caso de secciones complicadas y secciones naturales (irregulares), no se puede escribir una expresión algebraica simple, pero pueden prepararse curvas que representen la relación entre estos elementos y la profundidad de flujo.
 ___
