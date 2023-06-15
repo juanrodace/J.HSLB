@@ -56,7 +56,7 @@ Ahorra bien, todos los sistemas a superficie libre, comparten un conjunto de car
 
 <div align="center">
 <br>
-<img alt="J.HSLB" src="Graph/3.Geometria.svg" width="500px">
+<img alt="J.HSLB" src="Graph/3.Geometria.svg" width="700px">
 <br><sub>Esquema representativo de algunas de las características geométricas de los sistemas a superficie libre transversales abiertas y cerradas.</sub>
 <br><br></div>
 
