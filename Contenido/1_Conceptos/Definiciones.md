@@ -108,7 +108,7 @@ plt.ylabel('y(m)')
 plt.title('Channel Section')
 ```
 <div align="center"> <br>
-<img alt="J.HSLB" src="Graph/Ex_ChannelSection.png" width="800px">
+<img alt="J.HSLB" src="Graph/Ex_Channel.png" width="800px">
 <br><sub>Esquema de la sección transversal usando librería 'matplotlib'.</sub>
 <br><br></div>
 
@@ -135,7 +135,7 @@ plt.grid(True)
 ```
 
 <div align="center"> <br>
-<img alt="J.HSLB" src="Graph/Ex_AreaCC.png" width="800px">
+<img alt="J.HSLB" src="Graph/Ex_Area.png" width="800px">
 <br><sub>Gráfica del área de flujo del canal en función su la profundidad 'y'.</sub>
 <br><br></div>
 
@@ -159,7 +159,7 @@ plt.title('Hydraulic radio of a Coumpund Channel')
 plt.grid(True)
 ```
 <div align="center"> <br>
-<img alt="J.HSLB" src="Graph/Ex_HydraulicRadioCC.png" width="800px">
+<img alt="J.HSLB" src="Graph/Ex_HydraulicRadio.png" width="800px">
 <br><sub>Gráfica del área de flujo del canal en función su la profundidad 'y'.</sub>
 <br><br></div>
 
