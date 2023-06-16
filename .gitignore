@@ -6,6 +6,7 @@
 .idea/
 .git/
 .venv/
+venv/
 .venvPython310/
 .venvPython311/
 .gitignore/

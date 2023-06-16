@@ -44,8 +44,7 @@ En el siguiente esquema se presenta la comparación de las dos formas de flujo d
 
 El flujo a superficie libre o en "canales abiertos" puede darse en sistemas **naturales** o **artificiales**. Desde el punto de vista geométrico, el flujo se puede presentar en secciones transversales abiertas (como el caso de los rios, quebradas, zanjas y canales artificiales), o en secciones transversales cerradas (como tuberías de drenaje, sistemas de alcantarillado, túneles y estructuras de paso (culverts)).
 
-<div align="center">
-<br>
+<div align="center"> <br>
 <img alt="J.HSLB" src="Graph/2.Secciones.svg" width="500px">
 <br><sub>Esquema de flujo a superficie libre en secciones transversales abiertas y cerradas.</sub>
 <br><br></div>
@@ -54,8 +53,7 @@ Así mismo, un canal que tiene la misma sección transversal y la misma pendient
 
 Ahorra bien, todos los sistemas a superficie libre, comparten un conjunto de características o elementos geométricos que se deben considerar desde el punto de vista hidráulico. Los elementos geométricos son propiedades de una sección de canal que pueden ser definidos por completo por la geometría de la sección y la profundidad de flujo. A continuación se presentan y definen estas características geométricas básicas de las secciones transversales.
 
-<div align="center">
-<br>
+<div align="center"> <br>
 <img alt="J.HSLB" src="Graph/3.Geometria.svg" width="700px">
 <br><sub>Esquema representativo de algunas de las características geométricas de los sistemas a superficie libre transversales abiertas y cerradas.</sub>
 <br><br></div>
@@ -72,6 +70,99 @@ Ahorra bien, todos los sistemas a superficie libre, comparten un conjunto de car
 * **Factor de transporte para flujo uniforme (U<sub>c</sub>)**: se define como el producto del área (A) y el radio hidráulico (R) elevado a la potencia <sup>2</sup>/<sub>3</sub>.
 
 Para secciones de canal regulares y simples, los elementos geométricos pueden expresarse matemáticamente en términos de la profundidad de flujo y de otras dimensiones de la sección. Para el caso de secciones complicadas y secciones naturales (irregulares), no se puede escribir una expresión algebraica simple, pero pueden prepararse curvas que representen la relación entre estos elementos y la profundidad de flujo.
+
+#### Ejemplo canal prismático 
+
+Se desea estimar el área de flujo **A** y el rádio hidráulico **P** del canal trapezoidal compuesto presentado en la siguiente figura.
+
+
+1. Lo primero a realizar es cargar la información geométrica de la sección transversal. 
+
+```
+## Importar librerias
+import matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Ingresar información geometrica de la sección
+b=10  #main channel width, b(m)
+bv=20 #entire channel width, b(m)
+ym=3  #main channel depth, ym(m)
+z1=1  #main channel section slope
+z2=0.5 #entire channel section slope
+yi=5  #total channel depth, y(m)
+
+T1=b+2*ym*z1  #Ancho del cauce principal T(m)
+T2=bv+2*(yi-ym)*z2   #Ancho total del canal T(m)
+
+# Gráfica de la sección transversal compuesta
+Gx=[0,z2*(yi-ym),z2*(yi-ym)+(bv-T1)/2,z2*(yi-ym)+(bv-T1)/2+ym*z1,z2*(yi-ym)+(bv-T1)/2+ym*z1+b,z2*(yi-ym)+(bv-T1)/2+T1,T2-z2*(yi-ym),T2]
+Gy=[yi,ym,ym,0,0,ym, ym,yi]
+
+plt.figure(figsize=(15,12))
+plt.subplot(511)
+plt.plot(Gx,Gy,'b')
+plt.grid(True)
+plt.xlabel('x(m)')
+plt.ylabel('y(m)')
+plt.title('Channel Section')
+```
+<div align="center"> <br>
+<img alt="J.HSLB" src="Graph/Ex_ChannelSection.png" width="900px">
+<br><sub>Esquema de la sección transversal usando librería 'matplotlib'.</sub>
+<br><br></div>
+
+2. Ahora estimaremos el área de flujo **A** para diferentes valores de profundidad **y**.
+
+```
+# Cálculo del área hidráulica
+def Ar1(b, ym, z1): return (b * ym) + ((ym ** 2) * z1)
+def Ar2(b, bv, ym, z1, z2, yi): return ((b * ym) + ((ym ** 2) * z1))+(bv*(yi-ym)+((yi-ym)**2)*z2)
+
+y1 = np.arange(0.0, ym + 0.01, 0.01)
+y2 = np.arange(ym, yi + 0.01, 0.01)
+Area1 = Ar1(b, y1, z1)
+Area2 = Ar2(b, bv, ym, z1, z2, y2)
+
+# Gráfica del área hidráulica
+plt.subplot(513)
+plt.plot(Area1,y1,'r')
+plt.plot(Area2,y2,'r')
+plt.xlabel('Area, $(m^2)$')
+plt.ylabel('Depth, y(m)')
+plt.title('Area of a Coumpund Channel')
+plt.grid(True)
+```
+
+<div align="center"> <br>
+<img alt="J.HSLB" src="Graph/Ex_AreaCC.png" width="700px">
+<br><sub>Gráfica del área de flujo del canal en función su la profundidad 'y'.</sub>
+<br><br></div>
+
+3. Ahora estimaremos el radio hidráulico **R<sub>h</sub>** para diferentes valores de profundidad **y**.
+
+```
+# Cálculo del radio hidráulico
+def Pm1(b, ym, z1): return b+2*((ym**2+(ym*z1))**0.5)
+def Pm2(b,bv,yi,ym,z1,z2,T1): return (b+2*((ym**2+(ym*z1))**0.5))+((bv-T1)+2*(((yi-ym)**2+((yi-ym)*z2))**0.5))
+
+Rh1 = Ar1(b, y1, z1)/Pm1(b,y1,z1)
+Rh2 = Ar2(b, bv, ym, z1, z2, y2)/Pm2(b, bv, y2,ym, z1, z2, T1)
+
+# Gráfica del radio hidráulico
+plt.subplot(515)
+plt.plot(Rh1,y1,'r')
+plt.plot(Rh2,y2,'r')
+plt.xlabel('Hydraulic radio, (m)')
+plt.ylabel('Depth, y(m)')
+plt.title('Hydraulic radio of a Coumpund Channel')
+plt.grid(True)
+```
+<div align="center"> <br>
+<img alt="J.HSLB" src="Graph/Ex_HydraulicRadioCC.png" width="670px">
+<br><sub>Gráfica del área de flujo del canal en función su la profundidad 'y'.</sub>
+<br><br></div>
+
 ___
 
 ### Referencias
@@ -83,10 +174,11 @@ ___
 
 ### Control de versiones
 
-| Versión |                          Descripción                           |                    Autor                    | Horas |
-|:-------:|:--------------------------------------------------------------|:---:|:---:|
+| Versión | Descripción                                                    |                    Autor                    | Horas |
+|:-------:|:---------------------------------------------------------------|:---:|:-----:|
 | 2023.06 | Versión inicial, definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2023.06 |                    Inclusión de conceptos.                     | [juanrodace](https://github.com/juanrodace) |  3.0  |
+| 2023.06 | Inclusión de conceptos.                                        | [juanrodace](https://github.com/juanrodace) |  3.0  |
+| 2023.06 | Inclusión de ejemplos.                                         | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
 | [:arrow_backward:Anterior](Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda](https://github.com/juanrodace/J.HSLB/discussions) | [Siguiente:arrow_forward:](Clasificacion.md) |
 |---------------------------------------|-----------------------------------|----------------------------------------------------------------------|----------------------------------------------|
