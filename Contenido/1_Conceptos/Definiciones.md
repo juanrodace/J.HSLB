@@ -168,6 +168,12 @@ plt.grid(True)
 <br><br></div>
 
 ___
+### Preguntas
+1. Estime las características geométricas de tres secciones transversales prismáticas diferentes, por ejemplo: semicircular, triangular y parabólica.
+2. Para diferentes profundidades de flujo, estime las características geométricas para la sección transversal natural definida por los siguientes puntos: <a href="Xlsx/Pregunta_SeccionNatural.xlsx" target="_blank"><img src="../../.icons/Xlsx_Icon.jfif" width="22" border="0" /></a>
+
+
+___
 
 ### Referencias
 - The Hydraulics of Channel Flow: An Introduction. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004.

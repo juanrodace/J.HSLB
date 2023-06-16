@@ -91,6 +91,11 @@ El número de Froude es un parámetro importante que gobierna el tipo del flujo 
 El denominador del número de Froude es un parámetro adimensional, es decir que su denominador tiene la dimensión de la velocidad, y este representa la velocidad o celeridad de la onda **c<sub>o</sub>**. Por consiguiente, a velocidades de flujo lentas `Fr < 1`, una pequeña alteración viaja corriente arriba _(con una velocidad c<sub>o</sub> - V relativa al observador en reposo)_ y afecta las condiciones de flujo corriente arriba. Este se llama flujo tranquilo o **subcrítico** e indica que eñ flujo es dominado por las fuerzas de gravedad. Pero, a velocidades de flujo altas `Fr > 1`, una pequeña alteración no puede viajar corriente arriba _(la onda es llevada corriente abajo con una velocidad V - c<sub>o</sub> relativa)_ así que las condiciones de flujo corriente arriba no pueden ser influidas por las condiciones de flujo corriente abajo. Este se llama flujo rápido o **supercrítico**, cuando las fuerzas de inercia dominan el flujo y es controlado por las condiciones aguas arriba. [^2]
 
 ___
+### Preguntas
+1. ¿Cuáles son los regímenes de flujo en sistemas a superficie libre?
+2. `Ejercicio numérico pendiente`
+
+___
 
 ### Referencias
 - The Hydraulics of Channel Flow: An Introduction. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004.
