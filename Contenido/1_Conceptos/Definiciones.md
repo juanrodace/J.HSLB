@@ -71,10 +71,14 @@ Ahorra bien, todos los sistemas a superficie libre, comparten un conjunto de car
 
 Para secciones de canal regulares y simples, los elementos geométricos pueden expresarse matemáticamente en términos de la profundidad de flujo y de otras dimensiones de la sección. Para el caso de secciones complicadas y secciones naturales (irregulares), no se puede escribir una expresión algebraica simple, pero pueden prepararse curvas que representen la relación entre estos elementos y la profundidad de flujo.
 
-#### Ejemplo canal prismático  <a href="Py/Geometria.py" target="_blank"><img src="../../.icons/Py_Icon.png" width="20" border="0" /></a> <a href="Xlsx/Geometria.xlsx" target="_blank"><img src="../../.icons/Xlsx_Icon.jfif" width="30" border="0" /></a>
+#### Ejemplo canal prismático (Clic para ver en: <a href="Py/Geometria.py" target="_blank"><img src="../../.icons/Py_Icon.png" width="15" border="0" /></a> <a href="Xlsx/Geometria.xlsx" target="_blank"><img src="../../.icons/Xlsx_Icon.jfif" width="22" border="0" /></a>)
 
 Se desea estimar el área de flujo **A** y el radio hidráulico **R<sub>h</sub>** del canal compuesto con geometría trapezoidal presentado en la siguiente figura.
 
+<div align="center"> <br>
+<img alt="J.HSLB" src="Graph/4.CanalCompuesto.svg" width="500px">
+<br><sub>Esquema representativo de la sección transversal de un canal compuesto.</sub>
+<br><br></div>
 
 1. Lo primero a realizar es cargar la información geométrica de la sección transversal. 
 
