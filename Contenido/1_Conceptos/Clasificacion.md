@@ -1,6 +1,6 @@
 ## Clasificación del flujo
 
-Keywords: `Hydraulics` `Channel` `Open channel flow`
+Keywords: `Hydraulics` `Open channel flow` `Uniform flow` `FGV` `FEV`
 
 <div align="center">
 
@@ -38,7 +38,11 @@ En FGV se puede trabajar con la velocidad media unidimensional, tal y como se tr
 y flujo rápidamente variado (FRV, RVF por sus siglas en inglés) en un canal abierto. [^2]</sub><br><br>
 </div>
 
-### Efecto de viscosidad. Flujo laminar y turbulento.
+### Estado del flujo 
+
+El estado o comportamiento del flujo en sistemas a superficie libre, está gobernado por los efectos de viscosidad y gravedad en relación con las fuerzas inerciales del flujo.
+
+#### Efecto de viscosidad. Flujo laminar y turbulento.
 
 El estado o comportamiento del flujo en canales a superficie libre está gobernado básicamente por los efectos de viscosidad y gravedad en relación con las fuerzas inerciales del flujo. El flujo se puede clasificar el flujo en laminar, turbulento o transicional, según el efecto de la viscosidad en relación con la inercia. El flujo es **laminar** si las fuerzas viscosas son muy fuertes en relación con las fuerzas inerciales, de tal manera que la viscosidad es relevante en el comportamiento del flujo. El flujo es turbulento si las fuerzas viscosas son débiles en relación con las fuerzas inerciales. Entre los estados de flujo laminar y turbulento existe un estado mixto o transicional. La clasificación del flujo o el efecto de la viscosidad en relación con la inercia se representa mediante el número de Reynolds, definido por la siguiente ecuación:
 
@@ -62,7 +66,7 @@ Si se considera que con frecuencia los canales a superficie libre tienen seccion
 
 El flujo laminar en canales a superficie libre ocurre con muy poca frecuencia, ya que la mayoría de los canales transportan el líquido en condiciones de flujo turbulento. Sin embargo, se puede encontrar flujo laminar cuando una delgada capa de agua (como el agua que fluye por cunetas de carreteras o estacionamientos) se mueve a baja velocidad.
 
-### Efecto de gravedad. Flujo crítico, subcrítico y supercrítico.
+#### Efecto de gravedad. Flujo crítico, subcrítico y supercrítico.
 
 El efecto de la gravedad sobre el estado de flujo se presenta por la relación entre las fuerzas inerciales y las fuerzas gravitacionales. Esta relación está dada por el **_número de Froude_**, definido como
 
