@@ -40,7 +40,9 @@ En el siguiente esquema se presenta la comparación de las dos formas de flujo d
 
 > Comparación entre flujo en sistemas a presión y flujo a superficie libre. _Tomado de Fig.1.19_ [^1]
 
-### Características de la sección transversal
+### Tipos de canal
+
+#### Canales abiertos y cerrados
 
 El flujo a superficie libre o en "canales abiertos" puede darse en sistemas **naturales** o **artificiales**. Desde el punto de vista geométrico, el flujo se puede presentar en secciones transversales abiertas (como el caso de los rios, quebradas, zanjas y canales artificiales), o en secciones transversales cerradas (como tuberías de drenaje, sistemas de alcantarillado, túneles y estructuras de paso (culverts)).
 
@@ -49,9 +51,24 @@ El flujo a superficie libre o en "canales abiertos" puede darse en sistemas **na
 <br><sub>Esquema de flujo a superficie libre en secciones transversales abiertas y cerradas.</sub>
 <br><br></div>
 
+#### Canales prismáticos y no prismáticos
+
 Así mismo, un canal que tiene la misma sección transversal y la misma pendiente de fondo se denomina canal **prismático**, mientras que un canal que tiene una sección transversal y/o pendiente variable se denomina canal **no prismático**. Un canal largo puede estar compuesto por varios canales regulares. Una sección transversal normal a la dirección del flujo se denomina sección del canal. Las secciones de canales naturales son, por lo general, muy irregulares y pueden constar de una sección principal y una o más secciones laterales. Los canales o conductos artificiales suelen ser diseñados con secciones de figuras geométricas regulares, más comúnmente trapezoidales, cuadrados, triangulares o circulares para el caso de secciones cerradas.
 
-Ahorra bien, todos los sistemas a superficie libre, comparten un conjunto de características o elementos geométricos que se deben considerar desde el punto de vista hidráulico. Los elementos geométricos son propiedades de una sección de canal que pueden ser definidos por completo por la geometría de la sección y la profundidad de flujo. A continuación se presentan y definen estas características geométricas básicas de las secciones transversales.
+#### Canales erosionables
+
+Un canal puede ser erosionable o no erosionable, depende de las características físicas de su superficie. Es decir, si la superficie del canal es rígida, de un material resistente a la abrasión y su sección transversal no se deforma, se puede afirmar que es un canal **no erosionable**, como es el caso de los canales artificiales revestidos, los desagües, alcantarillas y cunetas. Caso contrario, si la superficie es susceptible a los procesos de erosión (velocidades y esfuerzos), y su sección transversal puede cambiar, se denominan **erosionables**, como el caso de la mayoría de canales naturales o canales artificiales no revestidos (zanjas, canales de irrigación, entre otros).
+
+Adicionalmente, desde el punto de vista hidráulico, podemos diferenciar el hecho de que en los canales **no erosionables** la rugosidad y geometría se mantienen constantes, por lo que las propiedades en su mayoría dependerán de la profundidad de flujo 'y'. Mientras que en los canales **erosionables** se presentan variaciones en la rugosidad por los procesos de erosión y sedimentación, así como cambios en la pendiente del fondo (S<sub>o</sub>), en la profundidad de flujo (y), el ancho de la base (b) y su forma en general. Esto hace que el estudio de estos últimos sea más complicado.
+
+<div align="center"> <br>
+<img alt="J.HSLB" src="Graph/Erosionable.svg" width="600px">
+<br><sub>Esquema de flujo a superficie libre en secciones transversales abiertas y cerradas.</sub>
+<br><br></div>
+
+### Características de la sección transversal
+
+Ahora bien, todos los sistemas a superficie libre, comparten un conjunto de características o elementos geométricos que se deben considerar desde el punto de vista hidráulico. Los elementos geométricos son propiedades de una sección de canal que pueden ser definidos por completo por la geometría de la sección y la profundidad de flujo. A continuación se presentan y definen estas características geométricas básicas de las secciones transversales.
 
 <div align="center"> <br>
 <img alt="J.HSLB" src="Graph/3.Geometria.svg" width="700px">
