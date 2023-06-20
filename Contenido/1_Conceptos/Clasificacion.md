@@ -96,7 +96,8 @@ El denominador del número de Froude es un parámetro adimensional, es decir que
 ___
 ### Preguntas
 1. ¿Cuáles son los regímenes de flujo en sistemas a superficie libre?
-2. `Ejercicio numérico pendiente`
+2. Con base en la clasificación de flujo en función del espacio, identifique los tipos de flujo que se presentan en la siguiente figura.
+3. `Ejercicio numérico de clasificación de flujo, con Froude.`
 
 ___
 
@@ -113,7 +114,7 @@ ___
 | Versión | Descripción                                                    |                    Autor                    | Horas |
 |:-------:|:---------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2023.06 | Versión inicial, definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2023.06 | Inclusión de conceptos.                                        | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2023.06 | Inclusión de conceptos.                                        | [juanrodace](https://github.com/juanrodace) |  1.5  |
 | 2023.06 | Inclusión de ejemplos.                                         | [juanrodace](https://github.com/juanrodace) |   P   |
 
 | [:arrow_backward:Anterior](Definiciones.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda](https://github.com/juanrodace/J.HSLB/discussions) | [Siguiente:arrow_forward:](Velocidades.md) |
