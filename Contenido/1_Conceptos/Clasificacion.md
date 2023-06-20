@@ -97,6 +97,10 @@ ___
 ### Preguntas
 1. ¿Cuáles son los regímenes de flujo en sistemas a superficie libre?
 2. Con base en la clasificación de flujo en función del espacio, identifique los tipos de flujo que se presentan en la siguiente figura.
+<div align="center">
+<img alt="J.HRAS" src="Graph/PreguntaTiposFlujo.svg" width="100%"><br>
+</div>
+
 3. `Ejercicio numérico de clasificación de flujo, con Froude.`
 
 ___
