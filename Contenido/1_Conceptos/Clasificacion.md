@@ -103,9 +103,10 @@ ___
 ### Referencias
 - The Hydraulics of Channel Flow: An Introduction. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004.
 - Open Channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
+- Open Channel Flow. Chaudry, M. H. 2ed., Springer, 2008.
+- Open Channel Flow. Osman Akan, A. Elsevier Ltd., 2006.
 - Introducción a la hidráulica de canales. Duarte A. Carlos A. 4a Ed., Editorial Universidad Nacional de Colombia. 2016.
 - Flow in open channels. Subramanya K. 3th Ed., Tata McGraw-Hill Publishing. 2009.
-- Fluid mechanics. Fundamentals and Applications.. Cengel Y., Cimbala J. McGraw-Hill.2006.
 
 ### Control de versiones
 
