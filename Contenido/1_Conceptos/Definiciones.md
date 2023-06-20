@@ -164,7 +164,7 @@ plt.grid(True)
 ```
 <div align="center"> <br>
 <img alt="J.HSLB" src="Graph/Ex_HydraulicRadio.png" width="800px">
-<br><sub>Gráfica del radio hidrálico del canal en función su la profundidad 'y'.</sub>
+<br><sub>Gráfica del radio hidráulico del canal en función su la profundidad 'y'.</sub>
 <br><br></div>
 
 ___
@@ -185,7 +185,7 @@ ___
 ### Control de versiones
 
 | Versión | Descripción                                                    |                    Autor                    | Horas |
-|:-------:|:---------------------------------------------------------------|:---:|:-----:|
+|:-------:|:---------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2023.06 | Versión inicial, definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2023.06 | Inclusión de conceptos.                                        | [juanrodace](https://github.com/juanrodace) |  3.0  |
 | 2023.06 | Inclusión de ejemplos.                                         | [juanrodace](https://github.com/juanrodace) |  2.0  |
