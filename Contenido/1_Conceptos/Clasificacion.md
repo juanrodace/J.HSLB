@@ -97,7 +97,7 @@ ___
 1. ¿Cuáles son los regímenes de flujo en sistemas a superficie libre?
 2. Con base en la clasificación de flujo en función del espacio, identifique los tipos de flujo que se presentan en la siguiente figura.
 <div align="center">
-<img alt="J.HRAS" src="Graph/PreguntaTiposFlujo.svg" width="100%"><br>
+<img alt="J.HRAS" src="Graph/PreguntaTiposFlujo.svg" width="90%"><br>
 </div>
 3. Determine el regimen de flujo de un líquido que es transportado por un canal trapezoidal a razón de 350 litros por segundo, considerando que la base (b) del canal es de 5 metros, la profundidad de flujo es de 2.5 metros y la inclinación de los taludes (1:z) es de 1:2. 
 
