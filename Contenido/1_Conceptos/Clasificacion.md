@@ -1,10 +1,9 @@
-## Clasificación del flujo
+## Clasificación del flujo <a href="../.Slides/HSLB-3-Clasificacion.pdf" target="_blank"><img src="../../.icons/Slides_Icon.png" width="25" border="0" /></a> 
 
 Keywords: `Hydraulics` `Open channel flow` `Uniform flow` `FGV` `FEV`
 
 <div align="center">
-
-![OpenChannelFlow.jpg](Graph/OCF_10.9.VictorPonce.jpg)
+<img alt="J.HRAS" src="Graph/OCF_10.9.VictorPonce.jpg" width="100%">
 </div>
 
 > Rio Moyán en Lambayeque, Peru. Adaptado de Fig.10-18 [^1].
@@ -100,8 +99,7 @@ ___
 <div align="center">
 <img alt="J.HRAS" src="Graph/PreguntaTiposFlujo.svg" width="100%"><br>
 </div>
-
-3. `Ejercicio numérico de clasificación de flujo, con Froude.`
+3. Determine el estado de flujo de un líquido que es transportado por un canal trapezoidal a razón de 350 litros por segundo, considerando que la base (b) del canal es de 5 metros, la profundidad de flujo es de 2.5 metros y la inclinación de los taludes (1:z) es de 1:2. 
 
 ___
 
