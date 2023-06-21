@@ -22,7 +22,7 @@ La distribución de velocidades en una sección transversal depende también de 
 
 <div align="center">
 <img alt="J.HRAS" src="Graph/VelocityProfile2.png" width="80%"><br>
-<sub>Distribución típica de velocidad en secciones de canal abierto.^[1].</sub><br>
+<sub>Distribución típica de velocidad (con isotacas) en diferentes secciones transversales de un canal abierto.^[1].</sub><br>
 </div> 
 
 La velocidad también puede cambiar en la dirección del flujo, como es el caso de los flujos variados, cuya profundidad de flujo cambia en el espacio, por lo que se dice que la distribución de la velocidad de flujo es en general tridimensional.
@@ -33,8 +33,11 @@ La velocidad también puede cambiar en la dirección del flujo, como es el caso 
 
 ### Velocidad media de flujo
 
-En la práctica de la ingeniería, al trabajar con las ecuaciones fundamentales de la mecánica de fluidos, se plantea la hipótesis de un fluido ideal al usar la velocidad en términos de la **velocidad media** en las secciones transversales del canal. Teniendo en cuenta que esta velocidad media puede cambiar solamente en la dirección del flujo. Esta hipótesis de unidimensionalidad hace posible resolver problemas importantes de la vida real de manera simple, precisa y aplicada comúnmente en la práctica. 
+En la práctica de la ingeniería, al trabajar con las ecuaciones fundamentales de la mecánica de fluidos, se plantea la hipótesis de un **fluido ideal** al usar la velocidad en términos de la **velocidad media** en las secciones transversales del canal. Teniendo en cuenta que esta velocidad media puede cambiar solamente en la dirección del flujo. Esta hipótesis de unidimensionalidad hace posible resolver problemas importantes de la vida real de manera simple, precisa y aplicada comúnmente en la práctica. 
 
+___
+### Preguntas
+1. ¿Qué es la hipótesis de fluido ideal?
 ___
 
 ### Referencias
@@ -50,7 +53,7 @@ ___
 | Versión | Descripción                                                    |                    Autor                    | Horas |
 |:-------:|:---------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2023.06 | Versión inicial, definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2023.06 | Inclusión de conceptos y esquemas.                             | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2023.06 | Inclusión de conceptos y esquemas.                             | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
 | [:arrow_backward:Anterior](Clasificacion.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda](https://github.com/juanrodace/J.HSLB/discussions) | [Siguiente:arrow_forward:](Presiones.md) |
 |----------------------------------------------|-----------------------------------|----------------------------------------------------------------------|------------------------------------------|
