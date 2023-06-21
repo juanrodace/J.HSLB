@@ -14,6 +14,8 @@ El transporte de los líquidos es esencial en la naturaleza y en gran parte de l
 
 En este curso, se estudiarán las características del transporte de líquidos en condiciones de flujo a superficie libre, sus características, clasificación, usos y aplicaciones. Es importante resaltar que el análisis del flujo en canales abiertos es necesario para la planeación, diseño y operación de todo tipo de proyectos que involucren recursos hidráulicos, tales como suministro de agua, generación de energía, gestión del riesgo, estructuras en ríos y drenaje urbano.
 
+*Clic para ver presentación:* <a href="Contenido/.Slides/HSLB-1-Introducción.pdf" target="_blank"><img src=".icons/Slides_Icon.png" width="20" border="0" /></a> 
+
 ## Resultados de aprendizaje
 
 Esta asignatura que pertenece al núcleo de formación profesional específica (NFPE) aporta al desarrollo de los siguientes resultados de aprendizaje:
@@ -71,7 +73,7 @@ Particularmente, en cada tercio se tendrán en cuenta los siguientes porcentajes
 | Quizzes       |    25%     |
 | Examen        |    50%     |
 | Participación | +pts extra | 
-| Asistencia   |  min 70%   |
+| Asistencia    |  min 70%   |
 </div>
 
 ### Laboratorio (20%)

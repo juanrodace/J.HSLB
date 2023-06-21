@@ -1,4 +1,4 @@
-## Definiciones básicas
+## Definiciones básicas <a href="Contenido/.Slides/HSLB-2-Definiciones.pdf" target="_blank"><img src="../../.icons/Slides_Icon.png" width="25" border="0" /></a> 
 
 Keywords: `Hydraulics` `Channel` `Open channel flow`
 
