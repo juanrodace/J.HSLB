@@ -40,9 +40,9 @@ En FGV se puede trabajar con la velocidad media unidimensional, tal y como se tr
 y flujo rápidamente variado (FRV, RVF por sus siglas en inglés) en un canal abierto. [^2]</sub><br><br>
 </div>
 
-### Estado del flujo 
+### Regimen del flujo 
 
-El estado o comportamiento del flujo en sistemas a superficie libre, está gobernado por los efectos de viscosidad y gravedad en relación con las fuerzas inerciales del flujo.
+El regimen o comportamiento del flujo en sistemas a superficie libre, está gobernado por los efectos de viscosidad y gravedad en relación con las fuerzas inerciales del flujo.
 
 #### Efecto de viscosidad. Flujo laminar y turbulento.
 
@@ -99,7 +99,7 @@ ___
 <div align="center">
 <img alt="J.HRAS" src="Graph/PreguntaTiposFlujo.svg" width="100%"><br>
 </div>
-3. Determine el estado de flujo de un líquido que es transportado por un canal trapezoidal a razón de 350 litros por segundo, considerando que la base (b) del canal es de 5 metros, la profundidad de flujo es de 2.5 metros y la inclinación de los taludes (1:z) es de 1:2. 
+3. Determine el regimen de flujo de un líquido que es transportado por un canal trapezoidal a razón de 350 litros por segundo, considerando que la base (b) del canal es de 5 metros, la profundidad de flujo es de 2.5 metros y la inclinación de los taludes (1:z) es de 1:2. 
 
 ___
 
