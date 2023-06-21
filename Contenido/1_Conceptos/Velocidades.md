@@ -1,6 +1,6 @@
 ## Distribución de velocidades <a href="../.Slides/HSLB-4-Velocidades.pdf" target="_blank"><img src="../../.icons/Slides_Icon.png" width="25" border="0" /></a>
 
-Keywords: `Hydraulics` `Open channel flow` `Uniform flow` `FGV` `FEV`
+Keywords: `Hydraulics` `Open channel flow` `Velocity distribution` `Average velocity` `Discharge`
 
 <div align="center">
 <img alt="J.HRAS" src="Graph/Arroyo_LasAnimas.jpg" width="100%">
