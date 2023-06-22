@@ -12,7 +12,7 @@ En dinámica de fluidos, la velocidad **'V'** es una función vectorial del fluj
 
 
 <div align="center">
-<img alt="J.HRAS" src="Graph/VelocityProfile1.svg" width="80%"><br>
+<img alt="J.HRAS" src="Graph/VelocityProfile1.svg" width="70%"><br>
 <sub>Diferencia entre perfil de velocidades del flujo en sistemas a presión y flujo a superficie libre.</sub><br>
 </div> 
 
@@ -29,12 +29,21 @@ La velocidad también puede cambiar en la dirección del flujo, como es el caso 
 
 ### Función del perfil de velocidades
 
+Como ya se definió, el flujo puede encontrarse en estado laminar, en transición o turbulento, siendo esta última la condición más común en el flujo a superficie libre. Para el caso de los sistemas en condición de flujo **laminar**, el perfil de velocidades puede expresarse como una función parabólica definida por la siguiente función. 
 
 
-### Velocidad media de flujo
+En el caso de flujo en transición y **turbulento**, según la teoría de longitud de mezcla de Prandtl-Karman, el canal o conducto se puede considerar como hidráulicamente liso, hidráulicamente en transición o hidráulicamente rugoso dependiendo de sus propiedades, en especial de la rugosidad de la superficie y la viscosidad del fluido. La clasificación se realiza con el número de Reynolds asociado a la rugosidad de la superficie **R<sub>e*</sub>**, definido por *Nikuradse* como el producto de la velocidad de corte **V<sub>*</sub>** y la rugosidad absoluta **k<sub>s</sub>** dividido por la viscosidad cinemática del fluido **ν**. 
+
+Así mismo, el perfil de velocidades se aproxima a una función logarítmica definida por las siguientes funciones.  
+
+### Caudal y velocidad media de flujo
 
 En la práctica de la ingeniería, al trabajar con las ecuaciones fundamentales de la mecánica de fluidos, se plantea la hipótesis de un **fluido ideal** al usar la velocidad en términos de la **velocidad media** en las secciones transversales del canal. Teniendo en cuenta que esta velocidad media puede cambiar solamente en la dirección del flujo. Esta hipótesis de unidimensionalidad hace posible resolver problemas importantes de la vida real de manera simple, precisa y aplicada comúnmente en la práctica. 
 
+### Ejemplo 1 - Perfil de velocidades en un canal trapezoidal
+Determinar el perfil de velocidades para un canal trapezoidal revestido en concreto, que transporta un caudal de 1 metro cúbico por segundo. El canal tiene un ancho en la base de 0.5 metros y una inclinación de talud (1:z) de 1:0.25. La profundidad de flujo es de 2 metros. 
+
+### Ejemplo 2 - Estimación de caudal de un canal natural
 ___
 ### Preguntas
 1. ¿Qué es la hipótesis de fluido ideal?
