@@ -29,12 +29,22 @@ La velocidad también puede cambiar en la dirección del flujo, como es el caso 
 
 ### Función del perfil de velocidades
 
+`## Pendiente esquema de un perfil de velocidades, con "h"`
+
 Como ya se definió, el flujo puede encontrarse en estado laminar, en transición o turbulento, siendo esta última la condición más común en el flujo a superficie libre. Para el caso de los sistemas en condición de flujo **laminar**, el perfil de velocidades puede expresarse como una función parabólica definida por la siguiente función. 
 
+`## Pendiente ecuación del perfil de flujo en condición laminar`
 
 En el caso de flujo en transición y **turbulento**, según la teoría de longitud de mezcla de Prandtl-Karman, el canal o conducto se puede considerar como hidráulicamente liso, hidráulicamente en transición o hidráulicamente rugoso dependiendo de sus propiedades, en especial de la rugosidad de la superficie y la viscosidad del fluido. La clasificación se realiza con el número de Reynolds asociado a la rugosidad de la superficie **R<sub>e*</sub>**, definido por *Nikuradse* como el producto de la velocidad de corte **V<sub>*</sub>** y la rugosidad absoluta **k<sub>s</sub>** dividido por la viscosidad cinemática del fluido **ν**. 
 
-Así mismo, el perfil de velocidades se aproxima a una función logarítmica definida por las siguientes funciones.  
+Así mismo, el perfil de velocidades **'v = f(h)'**, se aproxima a una función logarítmica definida por las siguientes funciones.  
+
+<div align="center">
+<img alt="J.HRAS" src="Equations/Prandtl_Velocity.svg" width="90%"><br>
+<sub>Donde, <b>v<sub>*</sub></b> corresponde a la velocidad de corte, <b>k**</b> es la constante Prandtl-Karman igual a 0.4,<br> <b>k<sub>s</sub></b> es la rugosidad absoluta de la superficie,<b>R<sub>e*</sub></b> es el número de Reynolds asociado a la rugosidad <br> y <b>h</b> corresponde a la variable de altura medida desde el fondo y perpendicular a este.</sub><br>
+</div> 
+
+
 
 ### Caudal y velocidad media de flujo
 
