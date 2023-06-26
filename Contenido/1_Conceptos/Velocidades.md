@@ -31,17 +31,20 @@ La velocidad también puede cambiar en la dirección del flujo, como es el caso 
 
 `## Pendiente esquema de un perfil de velocidades, con "h"`
 
-Como ya se definió, el flujo puede encontrarse en estado laminar, en transición o turbulento, siendo esta última la condición más común en el flujo a superficie libre. Para el caso de los sistemas en condición de flujo **laminar**, el perfil de velocidades puede expresarse como una función parabólica definida por la siguiente función. 
+Como ya se definió, el flujo puede encontrarse en estado laminar, en transición o turbulento, siendo esta última la condición más común en el flujo a superficie libre. Para el caso de los sistemas en condición de flujo **laminar**, el perfil de velocidades puede expresarse como una función parabólica. Por ejemplo, para un canal ancho _(cuya relación ancho profundidad sea considerable)_, la función se aproximada a la siguiente expresión. 
 
-`## Pendiente ecuación del perfil de flujo en condición laminar`
+<div align="center">
+<img alt="J.HRAS" src="Equations/Laminar_Velocity.svg" width="20%"><br>
+<sub>Donde, <b>S<sub>o</sub></b> corresponde a la pendiente del canal, <b>ν</b> es la viscosidad del líquido, <b>g</b> la constante gravitacional,<br> <b>y<sub>t</sub></b> es la profundidad (total) de flujo y <b>h</b> corresponde a la variable de altura medida desde el fondo.</sub><br>
+</div> 
 
 En el caso de flujo en transición y **turbulento**, según la teoría de longitud de mezcla de Prandtl-Karman, el canal o conducto se puede considerar como hidráulicamente liso, hidráulicamente en transición o hidráulicamente rugoso dependiendo de sus propiedades, en especial de la rugosidad de la superficie y la viscosidad del fluido. La clasificación se realiza con el número de Reynolds asociado a la rugosidad de la superficie **R<sub>e*</sub>**, definido por *Nikuradse* como el producto de la velocidad de corte **V<sub>*</sub>** y la rugosidad absoluta **k<sub>s</sub>** dividido por la viscosidad cinemática del fluido **ν**. 
 
 Así mismo, el perfil de velocidades **'v = f(h)'**, se aproxima a una función logarítmica definida por las siguientes funciones.  
 
 <div align="center">
-<img alt="J.HRAS" src="Equations/Prandtl_Velocity.svg" width="90%"><br>
-<sub>Donde, <b>v<sub>*</sub></b> corresponde a la velocidad de corte, <b>k**</b> es la constante Prandtl-Karman igual a 0.4,<br> <b>k<sub>s</sub></b> es la rugosidad absoluta de la superficie,<b>R<sub>e*</sub></b> es el número de Reynolds asociado a la rugosidad <br> y <b>h</b> corresponde a la variable de altura medida desde el fondo y perpendicular a este.</sub><br>
+<img alt="J.HRAS" src="Equations/Prandtl_Velocity.svg" width="65%"><br>
+<sub>Donde, <b>v<sub>*</sub></b> corresponde a la velocidad de corte, <b>k</b> es la constante Prandtl-Karman igual a 0.4,<br> <b>k<sub>s</sub></b> es la rugosidad absoluta de la superficie,<b>R<sub>e*</sub></b> es el número de Reynolds asociado a la rugosidad <br> y <b>h</b> corresponde a la variable de altura medida desde el fondo y perpendicular a este.</sub><br>
 </div> 
 
 
@@ -72,7 +75,7 @@ ___
 | Versión | Descripción                                                    |                    Autor                    | Horas |
 |:-------:|:---------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2023.06 | Versión inicial, definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2023.06 | Inclusión de conceptos y esquemas.                             | [juanrodace](https://github.com/juanrodace) |  2.0  |
+| 2023.06 | Inclusión de conceptos y esquemas.                             | [juanrodace](https://github.com/juanrodace) |  3.0  |
 
 | [:arrow_backward:Anterior](Clasificacion.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda](https://github.com/juanrodace/J.HSLB/discussions) | [Siguiente:arrow_forward:](Presiones.md) |
 |----------------------------------------------|-----------------------------------|----------------------------------------------------------------------|------------------------------------------|
