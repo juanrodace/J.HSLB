@@ -31,7 +31,7 @@ La velocidad también puede cambiar en la dirección del flujo, como es el caso 
 
 `## Pendiente esquema de un perfil de velocidades, con "h"`
 
-Como ya se definió, el flujo puede encontrarse en estado laminar, en transición o turbulento, siendo esta última la condición más común en el flujo a superficie libre. Para el caso de los sistemas en condición de flujo **laminar**, el perfil de velocidades puede expresarse como una función parabólica. Por ejemplo, para un canal ancho _(cuya relación ancho profundidad sea considerable)_, la función se aproximada a la siguiente expresión. 
+Como ya se definió, el flujo puede encontrarse en estado laminar, en transición o turbulento, siendo esta última la condición más común en el flujo a superficie libre. Para el caso de los sistemas en condición de flujo **laminar**, el perfil de velocidades puede expresarse como una función parabólica. Por ejemplo, para un canal ancho _(cuya relación ancho-profundidad sea considerable)_, la función se aproxima a la siguiente expresión. 
 
 <div align="center">
 <img alt="J.HRAS" src="Equations/Laminar_Velocity.svg" width="20%"><br>
