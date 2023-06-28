@@ -186,9 +186,9 @@ plt.grid(True)
 
 ___
 ### Preguntas
-1. Estime las características geométricas de tres secciones transversales prismáticas diferentes, por ejemplo: semicircular, triangular y parabólica.
-2. Para diferentes profundidades de flujo, estime las características geométricas para la sección transversal natural definida por los siguientes puntos: (Ver en <a href="Xlsx/Pregunta_SeccionNatural.xlsx" target="_blank"><img src="../../.icons/Xlsx_Icon.jfif" width="22" border="0" /></a>).
-
+1. Realice un listado con imágenes de al menos 10 usos diferentes de los canales o sistemas a superficie libre.  
+2. Estime las características geométricas de tres secciones transversales prismáticas diferentes, por ejemplo: semicircular, triangular y parabólica.
+3. Para diferentes profundidades de flujo, estime las características geométricas para la sección transversal natural definida por los siguientes puntos: (Ver en <a href="Xlsx/Pregunta_SeccionNatural.xlsx" target="_blank"><img src="../../.icons/Xlsx_Icon.jfif" width="22" border="0" /></a>).
 
 ___
 
