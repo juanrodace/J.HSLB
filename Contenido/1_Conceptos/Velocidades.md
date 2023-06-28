@@ -52,9 +52,36 @@ Así mismo, el perfil de velocidades **'v = f(h)'**, se aproxima a una función 
 
 
 
-### Caudal y velocidad media de flujo
+### Velocidad media y caudal
 
-En la práctica de la ingeniería, al trabajar con las ecuaciones fundamentales de la mecánica de fluidos, se plantea la hipótesis de un **fluido ideal** al usar la velocidad en términos de la **velocidad media** en las secciones transversales del canal. Teniendo en cuenta que esta velocidad media puede cambiar solamente en la dirección del flujo. Esta hipótesis de unidimensionalidad hace posible resolver problemas importantes de la vida real de manera simple, precisa y aplicada comúnmente en la práctica. 
+En la práctica de la ingeniería, al trabajar con las ecuaciones fundamentales de la mecánica de fluidos, se plantea la hipótesis de un **fluido ideal** al usar la velocidad en términos de **velocidad media (V<sub>m</sub>)** en las secciones transversales del canal. Teniendo en cuenta que esta velocidad media puede cambiar solamente en la dirección del flujo. Esta hipótesis de unidimensionalidad hace posible resolver problemas importantes de la vida real de manera simple, precisa y aplicada comúnmente en la práctica. 
+
+<div align="center">
+<br><img alt="J.HRAS" src="Graph/VelocityProfile3.svg" width="60%"><br>
+<sub>Esquema de un perfil de velocidades y su 'cambio' a un perfil de velocidades (constante) de un fluido ideal.</sub><br><br>
+</div> 
+
+La **velocidad media** se puede expresar en función de la integral del perfil de velocidades y el área de la sección transversal. Sin embargo, es común definirla en función del **caudal** o flujo volumétrico **'Q'** y el área de flujo **A** como:
+
+<div align="center">
+<img alt="J.HRAS" src="Equations/Average_Vel.svg" width="15%"><br>
+</div> 
+
+> Nota: Este supuesto unidimensional es aplicable a canales relativamente rectos y también a los canales de meandros con sinuosidades pequeñas y desbordamientos limitados. Sin embargo, la hipótesis unidimensional puede resultar insuficiente para canales de gran sinuosidad y/o flujos con grandes desbordamientos.
+
+#### Coeficiente de Boussinesq y Coriolis
+
+En la práctica, al plantear la hipótesis del fluido ideal y utilizar la velocidad media en las ecuaciones fundamentales de la mecánica de fluidos, es necesario aplicar factores o **coeficientes de corrección** a los términos que dependen de la velocidad. En el caso de la ecuación de conservación de la energía, aparece el coeficiente de **Coriolis** o coeficiente de energía (**α**). Para el caso de la ecuación de cantidad de movimiento o _momentum_ se ha definido el coeficiente de **Boussinesq** o coeficiente de la cantidad de movimiento (**ß**). 
+
+<div align="center">
+<img alt="J.HRAS" src="Equations/Coefficients.svg" width="50%"><br>
+</div> 
+
+> Las ecuaciones anteriores son bastante precisas para la estimación de los coeficientes, sin embargo, requieren de mediciones detalladas de la distribución de velocidades en una sección transversal. Alternativamente, cuando únicamente se conocen la velocidad media **V<sub>m</sub>**  y la velocidad máxima **V<sub>max</sub>** , pueden utilizarse fórmulas para calcular valores aproximados de los coeficientes de Coriolis y Boussinesq.
+
+Algunos valores típicos de los coeficientes de corrección para algunas geometrías, se presentan en la siguiente tabla.
+
+### Medición de la velocidad
 
 ### Ejemplo 1 - Perfil de velocidades en un canal trapezoidal
 Determinar el perfil de velocidades para un canal trapezoidal revestido en concreto, que transporta un caudal de 1 metro cúbico por segundo. El canal tiene un ancho en la base de 0.5 metros y una inclinación de talud (1:z) de 1:0.25. La profundidad de flujo es de 2 metros. 
@@ -88,3 +115,4 @@ _J.HSLB es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [juanrodace](https://github.com/juanrodace) en GitHub._
 
 [^1]: Introduction to Fluid Mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011.
+[^2]: Fundamentos de Hidráulica de Canales. Ponce, Victor M. 2015.
