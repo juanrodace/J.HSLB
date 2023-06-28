@@ -95,7 +95,7 @@ El denominador del número de Froude es un parámetro adimensional, es decir que
 ___
 ### Preguntas
 1. ¿Cuáles son los regímenes de flujo en sistemas a superficie libre?
-2. ¿Para qué sirve el número de Vedernikov?
+2. ¿Para qué es usado el número de Vedernikov?
 2. Con base en la clasificación de flujo en función del espacio, identifique los tipos de flujo que se presentan en la siguiente figura.
 <div align="center">
 <img alt="J.HRAS" src="Graph/PreguntaTiposFlujo.svg" width="90%"><br>
