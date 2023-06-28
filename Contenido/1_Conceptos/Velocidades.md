@@ -81,6 +81,16 @@ En la práctica, al plantear la hipótesis del fluido ideal y utilizar la veloci
 
 Algunos valores típicos de los coeficientes de corrección para algunas geometrías, se presentan en la siguiente tabla.
 
+<div align="center">
+
+| Canal | α | ß |
+|:-----:|:-:|:-:|
+|  > 1  |   |   |
+|   1   |   |   |
+|  > 1  |   |   |
+
+</div> 
+
 ### Medición de la velocidad
 
 ### Ejemplo 1 - Perfil de velocidades en un canal trapezoidal
