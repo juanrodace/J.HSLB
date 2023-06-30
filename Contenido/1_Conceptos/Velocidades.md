@@ -100,7 +100,7 @@ En el caso de los correntómetros, se mide la velocidad de flujo mediante el con
 En el procedimiento típico, se hacen varios sondeos de profundidad, por lo general de 20 a 30, dependiendo del tamaño de la sección transversal. Cada sondeo está asociado a una sección parcial del flujo. La sección parcial es un rectángulo o trapecio y de ancho igual a la mitad de la distancia entre las dos verticales adyacentes. 
 
 <div align="center">
-<br><img alt="J.HRAS" src="Graph/Speed_mea  surement.svg" width="95%"><br>
+<br><img alt="J.HRAS" src="Graph/Speed_measurement.svg" width="95%"><br>
 <sub>Esquema de una sección transversal con subsecciones rectangulares para medición de velocidades y flujo.</sub><br><br>
 </div> 
 
