@@ -103,12 +103,18 @@ Determinar el perfil de velocidades para un canal trapezoidal revestido en concr
 
 1. Lo primero a realizar, es clasificar el flujo de acuerdo con Prandlt-Karman como superficie hidráulicamente lisa, en transición o turbulenta. Para esto se estima la velocidad de corte **V<sub>*</sub>** y el número de Reynolds asociado a la rugosidad de la superficie <b>R<sub>e*</sub></b>.
 
-$$v=\frac{Q}{A}=\frac{Q}{by+zy^{2}}=\frac{1}{(0.5)(2)+(0.25)(2)^{2}}=0.5$$
+$$\bar{v}=\frac{Q}{A}=\frac{Q}{by+zy^{2}}=\frac{1}{(0.5)(2)+(0.25)(2)^{2}}=0.5$$
 
-2. Conociendo la clasificación, en este caso como hidráulicamente en transición.
+$$V_{*}=\bar{v}\frac{ng^{1/2}}{R^{1/6}}=0.5\frac{(0.013)g^{1/2}}{(2/4.6)^{1/6}}=0.023\frac{m}{s}$$
 
+R_{e*}=\frac{V_{*}k_{s}}{\nu}=\frac{(0.023)(0.36e^{-3})}{1.1e^{-6}}=7.66
 
+2. Conociendo la clasificación, en este caso como hidráulicamente en **transición**. Se estima y grafica el perfil de velocidades, como se muestra a continuación.
 
+<div align="center">
+<br><img alt="J.HRAS" src="Graph/VelocityProfile_Ex.svg" width="60%"><br>
+<sub>Esquema del canal con sección trapezoidal.</sub><br>
+</div> 
 
 ### Ejemplo 2 - Estimación de caudal de un canal natural
 ___
