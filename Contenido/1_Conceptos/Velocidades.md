@@ -94,7 +94,7 @@ Algunos valores típicos de los coeficientes de corrección para algunas geometr
 ### Medición de la velocidad
 
 ### Ejemplo 1 - Perfil de velocidades en un canal trapezoidal
-Determinar el perfil de velocidades para un canal trapezoidal revestido en concreto, que transporta un caudal de 1 metro cúbico por segundo. El canal tiene un ancho en la base de 0.5 metros y una inclinación de talud (1:z) de 1:0.25. La profundidad de flujo es de 2 metros. Asuma una densidad de 998 $\frac{kg}{m^{3}}$, una viscosidad de 1.1$e^{-6} \frac{m^{2}}{s}$, una rugosidad de la superficie k<sub>s</sub> de 0.36mm y un coeficiente de Manning de 0.013.
+Determinar el perfil de velocidades para un canal trapezoidal revestido en concreto, que transporta un caudal de 1 metro cúbico por segundo. El canal tiene un ancho en la base de 0.5 metros y una inclinación de talud (1:z) de 1:0.25. La profundidad de flujo es de 2 metros. Asuma una densidad de 998 $\frac{kg}{m^{3}}$, una viscosidad de 1.1 $e^{-6} \frac{m^{2}}{s}$, una rugosidad de la superficie k<sub>s</sub> de 0.36mm y un coeficiente de Manning de 0.013.
 
 <div align="center">
 <br><img alt="J.HRAS" src="Graph/CanalTrapezoidal.svg" width="40%"><br>
@@ -120,6 +120,8 @@ $$R_{e*}=\frac{V_{*}k_{s}}{\nu}=\frac{(0.023)(0.36e^{-3})}{1.1e^{-6}}=7.66$$
 ___
 ### Preguntas
 1. ¿Qué es la hipótesis de fluido ideal?
+2. Determine y grafique el perfil de velocidades de un canal muy ancho (b=600m) con una profundidad media de y=10m y un caudal de 5000 $\frac{m^{3}}{s}$. Considere una densidad relativa de 1.05, una viscosidad de 1.15e<sup>-6</sup> $\frac{m^{2}}{s}$ y una rugosidad del fondo de 20mm y un coeficiente de Manning n=0.04.
+3.
 ___
 
 ### Referencias
