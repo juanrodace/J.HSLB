@@ -104,9 +104,14 @@ En el procedimiento típico, se hacen varios sondeos de profundidad, por lo gene
 <sub>Esquema de una sección transversal con subsecciones rectangulares para medición de velocidades y flujo.</sub><br><br>
 </div> 
 
-Comúnmente se usa el método de **dos puntos**, donde el correntómetro se coloca a 0.2 y 0.8 de la profundidad de flujo, medida a partir de la superficie del agua. Por otro lado, en el método de un solo punto, el correntómetro se coloca a 0.6 de la profundidad. El promedio de las velocidades a las profundidades de 0.2 y 0.8, o la velocidad a la profundidad de 0.6 se toma como la velocidad media de la **subsección**. Ahora para cada subsección se calcula el flujo o descarga como el producto entre su velocidad media y su área. **$$q_{i}=\bar{v}a_{i}$$**. Finalmente, el flujo o descarga total **Q** es la suma de los flujos **q<sub>i</sub>** de todas las secciones parciales.
+Comúnmente se usa el método de **dos puntos**, donde el correntómetro se coloca a 0.2 y 0.8 de la profundidad de flujo, medida a partir de la superficie del agua. Por otro lado, en el método de un solo punto, el correntómetro se coloca a 0.6 de la profundidad. El promedio de las velocidades a las profundidades de 0.2 y 0.8, o la velocidad a la profundidad de 0.6 se toma como la velocidad media de la **subsección**. Ahora para cada subsección se calcula el flujo o descarga como el producto entre su velocidad media y su área. **$q_{i}=\bar{v}a_{i}$**. Finalmente, el flujo o descarga total **Q** es la suma de los flujos **q<sub>i</sub>** de todas las secciones parciales.
 
->El método de un solo punto se recomienda cuando la medición de dos puntos es poco práctica, por ejemplo, en corrientes muy poco profundas.
+<div align="center">
+<br><img alt="J.HRAS" src="Graph/Speed_measurement2.svg" width="40%"><br>
+<sub>Estimación de velocidad media y caudal de cada subsección aforada.</sub><br><br>
+</div> 
+
+> <u>Nota</u>: El método de un solo punto se recomienda cuando la medición de dos puntos es poco práctica, por ejemplo, en corrientes muy poco profundas.
 
 
 
