@@ -41,7 +41,7 @@ Como ya se definió, el flujo puede encontrarse en estado laminar, en transició
 <sub>Donde, <b>S<sub>o</sub></b> corresponde a la pendiente del canal, <b>ν</b> es la viscosidad del líquido, <b>g</b> la constante gravitacional,<br> <b>y<sub>t</sub></b> es la profundidad (total) de flujo y <b>h</b> corresponde a la variable de altura medida desde el fondo.</sub><br>
 </div> 
 
-En el caso de flujo en transición y **turbulento**, según la teoría de longitud de mezcla de Prandtl-Karman, el canal o conducto se puede considerar como hidráulicamente liso, hidráulicamente en transición o hidráulicamente rugoso dependiendo de sus propiedades, en especial de la rugosidad de la superficie y la viscosidad del fluido. La clasificación se realiza con el número de Reynolds asociado a la rugosidad de la superficie **R<sub>e*</sub>**, definido por *Nikuradse* como el producto de la velocidad de corte **V<sub>*</sub>** y la rugosidad absoluta **k<sub>s</sub>** dividido por la viscosidad cinemática del fluido **ν**. 
+En el caso de flujo en transición y **turbulento**, según la teoría de longitud de mezcla de Prandtl-Karman, el canal o conducto se puede considerar como hidráulicamente liso, hidráulicamente en transición o hidráulicamente rugoso dependiendo de sus propiedades, en especial de la rugosidad de la superficie y la viscosidad del fluido. La clasificación se realiza con el número de Reynolds asociado a la rugosidad de la superficie <b>R<sub>e*</sub></b>, definido por *Nikuradse* como el producto de la velocidad de corte **V<sub>*</sub>** y la rugosidad absoluta **k<sub>s</sub>** dividido por la viscosidad cinemática del fluido **ν**. 
 
 Así mismo, el perfil de velocidades **'v = f(h)'**, se aproxima a una función logarítmica definida por las siguientes funciones.  
 
@@ -94,7 +94,21 @@ Algunos valores típicos de los coeficientes de corrección para algunas geometr
 ### Medición de la velocidad
 
 ### Ejemplo 1 - Perfil de velocidades en un canal trapezoidal
-Determinar el perfil de velocidades para un canal trapezoidal revestido en concreto, que transporta un caudal de 1 metro cúbico por segundo. El canal tiene un ancho en la base de 0.5 metros y una inclinación de talud (1:z) de 1:0.25. La profundidad de flujo es de 2 metros. 
+Determinar el perfil de velocidades para un canal trapezoidal revestido en concreto, que transporta un caudal de 1 metro cúbico por segundo. El canal tiene un ancho en la base de 0.5 metros y una inclinación de talud (1:z) de 1:0.25. La profundidad de flujo es de 2 metros. Asuma una densidad de 998 $\frac{kg}{m^{3}}$, una viscosidad de 1.1$e^{-6} \frac{m^{2}}{s}$, una rugosidad de la superficie k<sub>s</sub> de 0.36mm y un coeficiente de Manning de 0.013.
+
+<div align="center">
+<br><img alt="J.HRAS" src="Graph/CanalTrapezoidal.svg" width="40%"><br>
+<sub>Esquema del canal con sección trapezoidal.</sub><br>
+</div> 
+
+1. Lo primero a realizar, es clasificar el flujo de acuerdo con Prandlt-Karman como superficie hidráulicamente lisa, en transición o turbulenta. Para esto se estima la velocidad de corte **V<sub>*</sub>** y el número de Reynolds asociado a la rugosidad de la superficie <b>R<sub>e*</sub></b>.
+
+$$v=\frac{Q}{A}=\frac{Q}{by+zy^{2}}=\frac{1}{(0.5)(2)+(0.25)(2)^{2}}=0.5$$
+
+2. Conociendo la clasificación, en este caso como hidráulicamente en transición.
+
+
+
 
 ### Ejemplo 2 - Estimación de caudal de un canal natural
 ___
