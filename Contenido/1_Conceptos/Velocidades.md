@@ -91,14 +91,31 @@ Algunos valores típicos de los coeficientes de corrección para algunas geometr
 
 </div> 
 
-### Medición de la velocidad
+### Medición de velocidad y flujo
+
+La medición de flujos y velocidades en los canales es muy utilizada para la realización de aforos, caracterización del flujo y/o establecer una sección de control. Tradicionalmente, se realizan mediciones de velocidad con ayuda de medidores de corriente (correntómetros), sin embargo, han aparecido nuevas tecnologías de aforo con sistemas electrónicos.
+
+En el caso de los correntómetros, se mide la velocidad de flujo mediante el conteo del número de revoluciones por segundo del rotor y su relación con una curva o tabla de calibración. La rotación puede ser alrededor de un eje horizontal o de un eje vertical.
+
+En el procedimiento típico, se hacen varios sondeos de profundidad, por lo general de 20 a 30, dependiendo del tamaño de la sección transversal. Cada sondeo está asociado a una sección parcial del flujo. La sección parcial es un rectángulo o trapecio y de ancho igual a la mitad de la distancia entre las dos verticales adyacentes. 
+
+<div align="center">
+<br><img alt="J.HRAS" src="Graph/Speed_mea  surement.svg" width="95%"><br>
+<sub>Esquema de una sección transversal con subsecciones rectangulares para medición de velocidades y flujo.</sub><br><br>
+</div> 
+
+Comúnmente se usa el método de **dos puntos**, donde el correntómetro se coloca a 0.2 y 0.8 de la profundidad de flujo, medida a partir de la superficie del agua. Por otro lado, en el método de un solo punto, el correntómetro se coloca a 0.6 de la profundidad. El promedio de las velocidades a las profundidades de 0.2 y 0.8, o la velocidad a la profundidad de 0.6 se toma como la velocidad media de la **subsección**. Ahora para cada subsección se calcula el flujo o descarga como el producto entre su velocidad media y su área. **$$q_{i}=\bar{v}a_{i}$$**. Finalmente, el flujo o descarga total **Q** es la suma de los flujos **q<sub>i</sub>** de todas las secciones parciales.
+
+>El método de un solo punto se recomienda cuando la medición de dos puntos es poco práctica, por ejemplo, en corrientes muy poco profundas.
+
+
 
 ### Ejemplo 1 - Perfil de velocidades en un canal trapezoidal
 Determinar el perfil de velocidades para un canal trapezoidal revestido en concreto, que transporta un caudal de 1 metro cúbico por segundo. El canal tiene un ancho en la base de 0.5 metros y una inclinación de talud (1:z) de 1:0.25. La profundidad de flujo es de 2 metros. Asuma una densidad de 998 $\frac{kg}{m^{3}}$, una viscosidad de 1.1 $e^{-6} \frac{m^{2}}{s}$, una rugosidad de la superficie k<sub>s</sub> de 0.36mm y un coeficiente de Manning de 0.013.
 
 <div align="center">
 <br><img alt="J.HRAS" src="Graph/CanalTrapezoidal.svg" width="40%"><br>
-<sub>Esquema del canal con sección trapezoidal.</sub><br>
+<sub>Esquema del canal con sección trapezoidal.</sub><br><br>
 </div> 
 
 1. Lo primero a realizar, es clasificar el flujo de acuerdo con Prandlt-Karman como superficie hidráulicamente lisa, en transición o turbulenta. Para esto se estima la velocidad de corte **V<sub>*</sub>** y el número de Reynolds asociado a la rugosidad de la superficie <b>R<sub>e*</sub></b>.
@@ -109,7 +126,7 @@ $$V_{*}=\bar{v}\frac{ng^{1/2}}{R^{1/6}}=0.5\frac{(0.013)g^{1/2}}{(2/4.6)^{1/6}}=
 
 $$R_{e*}=\frac{V_{*}k_{s}}{\nu}=\frac{(0.023)(0.36e^{-3})}{1.1e^{-6}}=7.66$$
 
-2. Conociendo la clasificación, en este caso como hidráulicamente en **transición**. Se estima y grafica el perfil de velocidades, como se muestra a continuación.
+2. Conociendo la clasificación realizada, en este caso como superficie hidráulicamente en **transición**. Se estima y grafica el perfil de velocidades, como se muestra a continuación.
 
 <div align="center">
 <br><img alt="J.HRAS" src="Graph/VelocityProfile_Ex.svg" width="60%"><br>
@@ -120,7 +137,8 @@ $$R_{e*}=\frac{V_{*}k_{s}}{\nu}=\frac{(0.023)(0.36e^{-3})}{1.1e^{-6}}=7.66$$
 ___
 ### Preguntas
 1. ¿Qué es la hipótesis de fluido ideal?
-2. Determine y grafique el perfil de velocidades de un canal muy ancho (b=600m) con una profundidad media de y=10m y un caudal de 5000 $\frac{m^{3}}{s}$. Considere una densidad relativa de 1.05, una viscosidad de 1.15e<sup>-6</sup> $\frac{m^{2}}{s}$ y una rugosidad del fondo de 20mm y un coeficiente de Manning n=0.04.
+2. ¿Qué es una sección de control?
+2. Determine y grafique el perfil de velocidades de un canal muy ancho (b=600m) con una profundidad media de y=10m y un caudal de 5000 $\frac{m^{3}}{s}$. Considere una densidad relativa de 1.05, una viscosidad de 1.15e<sup>-6</sup> $\frac{m^{2}}{s}$ y una rugosidad absoluta del fondo de 14mm y un coeficiente de Manning n=0.04.
 3.
 ___
 
