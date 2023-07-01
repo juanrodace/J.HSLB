@@ -13,7 +13,7 @@ En dinámica de fluidos, la velocidad **'V'** es una función vectorial del fluj
 
 <div align="center">
 <img alt="J.HRAS" src="Graph/VelocityProfile1.svg" width="70%"><br>
-<sub>Diferencia entre perfil de velocidades del flujo en sistemas a presión y flujo a superficie libre.</sub><br>
+<sub>Diferencia entre perfil de velocidades del flujo en sistemas a presión y flujo a superficie libre.</sub><br><br>
 </div> 
 
  Particularmente, en la sección transversal de un canal a superficie libre, la velocidad del flujo se aproxima a cero en el fondo y en las paredes laterales del canal debido a la condición de **no deslizamiento**. Así mismo, la velocidad **máxima** ocurre cerca a la superficie libre, sin embargo, su localización depende más de la geometría de la sección transversal. 
@@ -22,7 +22,7 @@ La distribución de velocidades en una sección transversal depende también de 
 
 <div align="center">
 <img alt="J.HRAS" src="Graph/VelocityProfile2.png" width="80%"><br>
-<sub>Distribución típica de velocidad (con isotacas) en diferentes secciones transversales de un canal abierto.^[1].</sub><br>
+<sub>Distribución típica de velocidad (con isotacas) en diferentes secciones transversales de un canal abierto. [^1].</sub><br><br>
 </div> 
 
 La velocidad también puede cambiar en la dirección del flujo, como es el caso de los flujos variados, cuya profundidad de flujo cambia en el espacio, por lo que se dice que la distribución de la velocidad de flujo es en general tridimensional.
@@ -174,5 +174,6 @@ _J.HSLB es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [juanrodace](https://github.com/juanrodace) en GitHub._
 
-[^1]: Introduction to Fluid Mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011.
+
+[^1]: Introduction to Fluid Mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011. 
 [^2]: Fundamentos de Hidráulica de Canales. Ponce, Victor M. 2015.
