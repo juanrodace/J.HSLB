@@ -38,7 +38,7 @@ Como ya se definió, el flujo puede encontrarse en estado laminar, en transició
 
 <div align="center">
 <img alt="J.HRAS" src="Equations/Laminar_Velocity.svg" width="20%"><br>
-<sub>Donde, <b>S<sub>o</sub></b> corresponde a la pendiente del canal, <b>ν</b> es la viscosidad del líquido, <b>g</b> la constante gravitacional,<br> <b>y<sub>t</sub></b> es la profundidad (total) de flujo y <b>h</b> corresponde a la variable de altura medida desde el fondo.</sub><br>
+<sub>Donde, <b>S<sub>o</sub></b> corresponde a la pendiente del canal, <b>ν</b> es la viscosidad del líquido, <b>g</b> la constante gravitacional,<br> <b>y<sub>t</sub></b> es la profundidad (total) de flujo y <b>h</b> corresponde a la variable de altura medida desde el fondo.</sub><br><br>
 </div> 
 
 En el caso de flujo en transición y **turbulento**, según la teoría de longitud de mezcla de Prandtl-Karman, el canal o conducto se puede considerar como hidráulicamente liso, hidráulicamente en transición o hidráulicamente rugoso dependiendo de sus propiedades, en especial de la rugosidad de la superficie y la viscosidad del fluido. La clasificación se realiza con el número de Reynolds asociado a la rugosidad de la superficie <b>R<sub>e*</sub></b>, definido por *Nikuradse* como el producto de la velocidad de corte **V<sub>*</sub>** y la rugosidad absoluta **k<sub>s</sub>** dividido por la viscosidad cinemática del fluido **ν**. 
@@ -49,7 +49,6 @@ Así mismo, el perfil de velocidades **'v = f(h)'**, se aproxima a una función 
 <img alt="J.HRAS" src="Equations/Prandtl_Velocity.svg" width="65%"><br>
 <sub>Donde, <b>v<sub>*</sub></b> corresponde a la velocidad de corte, <b>k</b> es la constante Prandtl-Karman igual a 0.4,<br> <b>k<sub>s</sub></b> es la rugosidad absoluta de la superficie,<b>R<sub>e*</sub></b> es el número de Reynolds asociado a la rugosidad <br> y <b>h</b> corresponde a la variable de altura medida desde el fondo y perpendicular a este.</sub><br>
 </div> 
-
 
 
 ### Velocidad media y caudal
@@ -83,11 +82,11 @@ Algunos valores típicos de los coeficientes de corrección para algunas geometr
 
 <div align="center">
 
-| Canal | α | ß |
-|:-----:|:-:|:-:|
-|  > 1  |   |   |
-|   1   |   |   |
-|  > 1  |   |   |
+|                  Canal                  | α | ß |
+|:---------------------------------------:|:-:|:-:|
+| Muy ancho con relación $\frac{y}{b}>10$ |   |   |
+|                                         |   |   |
+|                                         |   |   |
 
 </div> 
 
