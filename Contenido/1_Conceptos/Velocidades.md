@@ -104,12 +104,13 @@ En el procedimiento típico, se hacen varios sondeos de profundidad, por lo gene
 <sub>Esquema de una sección transversal con subsecciones rectangulares para medición de velocidades y flujo.</sub><br><br>
 </div> 
 
-Comúnmente se usa el método de **dos puntos**, donde el correntómetro se coloca a 0.2 y 0.8 de la profundidad de flujo, medida a partir de la superficie del agua. Por otro lado, en el método de un solo punto, el correntómetro se coloca a 0.6 de la profundidad. El promedio de las velocidades a las profundidades de 0.2 y 0.8, o la velocidad a la profundidad de 0.6 se toma como la velocidad media de la **subsección**. Ahora para cada subsección se calcula el flujo o descarga como el producto entre su velocidad media y su área. **$q_{i}=\bar{v}a_{i}$**. Finalmente, el flujo o descarga total **Q** es la suma de los flujos **q<sub>i</sub>** de todas las secciones parciales.
+Comúnmente se usa el método de **dos puntos**, donde el correntómetro se coloca a 0.2 y 0.8 de la profundidad de flujo, medida a partir de la superficie del agua. Por otro lado, en el método de un solo punto, el correntómetro se coloca a 0.6 de la profundidad. El promedio de las velocidades a las profundidades de 0.2 y 0.8, o la velocidad a la profundidad de 0.6 se toma como la velocidad media de la **subsección**. Ahora para cada subsección se calcula el flujo o descarga como el producto entre su velocidad media y su área. **$q_{i}=\bar{v}a_{i}$**. Finalmente, el flujo o descarga total **Q** es la suma de los flujos **q<sub>i</sub>** de todas las secciones parciales. Así mismo, la velocidad media de toda la sección, será podrá estimar como al cociente entre el caudal **'Q'** y el área total de la sección **'A'**.
 
 <div align="center">
 <br><img alt="J.HRAS" src="Graph/Speed_measurement2.svg" width="40%"><br>
 <sub>Estimación de velocidad media y caudal de cada subsección aforada.</sub><br><br>
 </div> 
+
 
 > <u>Nota</u>: El método de un solo punto se recomienda cuando la medición de dos puntos es poco práctica, por ejemplo, en corrientes muy poco profundas.
 
@@ -139,12 +140,16 @@ $$R_{e*}=\frac{V_{*}k_{s}}{\nu}=\frac{(0.023)(0.36e^{-3})}{1.1e^{-6}}=7.66$$
 </div> 
 
 ### Ejemplo 2 - Estimación de caudal de un canal natural
+Estimar el caudal y velocidad media de flujo de una sección transversal a la cual se le realizó un aforo con ayuda de un medidor de velocidad con el método de dos puntos. Los datos registrados se presentan en la siguiente tabla.
+
+
+
 ___
 ### Preguntas
 1. ¿Qué es la hipótesis de fluido ideal?
 2. ¿Qué es una sección de control?
 2. Determine y grafique el perfil de velocidades de un canal muy ancho (b=600m) con una profundidad media de y=10m y un caudal de 5000 $\frac{m^{3}}{s}$. Considere una densidad relativa de 1.05, una viscosidad de 1.15e<sup>-6</sup> $\frac{m^{2}}{s}$ y una rugosidad absoluta del fondo de 14mm y un coeficiente de Manning n=0.04.
-3.
+3. Estime los coeficientes de Coriolis y Boussinesq para el flujo presentado en el ejemplo 2.
 ___
 
 ### Referencias
