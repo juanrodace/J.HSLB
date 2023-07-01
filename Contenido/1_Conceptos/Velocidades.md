@@ -115,7 +115,7 @@ Comúnmente se usa el método de **dos puntos**, donde el correntómetro se colo
 
 
 
-### Ejemplo 1 - Perfil de velocidades en un canal trapezoidal
+### Ejemplo 1 - Perfil de velocidades en un canal trapezoidal. (Clic para ver en: <a href="Xlsx/PerfilVelocidades.xlsx" target="_blank"><img src="../../.icons/Xlsx_Icon.jfif" width="22" border="0" /></a>)
 Determinar el perfil de velocidades para un canal trapezoidal revestido en concreto, que transporta un caudal de 1 metro cúbico por segundo. El canal tiene un ancho en la base de 0.5 metros y una inclinación de talud (1:z) de 1:0.25. La profundidad de flujo es de 2 metros. Asuma una densidad de 998 $\frac{kg}{m^{3}}$, una viscosidad de 1.1 $e^{-6} \frac{m^{2}}{s}$, una rugosidad de la superficie k<sub>s</sub> de 0.36mm y un coeficiente de Manning de 0.013.
 
 <div align="center">
@@ -138,10 +138,25 @@ $$R_{e*}=\frac{V_{*}k_{s}}{\nu}=\frac{(0.023)(0.36e^{-3})}{1.1e^{-6}}=7.66$$
 <sub>Esquema del canal con sección trapezoidal.</sub><br>
 </div> 
 
-### Ejemplo 2 - Estimación de caudal de un canal natural
-Estimar el caudal y velocidad media de flujo de una sección transversal a la cual se le realizó un aforo con ayuda de un medidor de velocidad con el método de dos puntos. Los datos registrados se presentan en la siguiente tabla.
+### Ejemplo 2 - Estimación de caudal de un canal natural (Clic para ver en: <a href="Xlsx/Medicion.xlsx" target="_blank"><img src="../../.icons/Xlsx_Icon.jfif" width="22" border="0" /></a>)
 
+Estimar el caudal y velocidad media de flujo de una sección transversal a la cual se le realizó un aforo del flujo con ayuda de un medidor de velocidad por medio del método de dos puntos. Los datos de velocidad registrados se presentan en la siguiente tabla y los puntos de aforo se pueden identificar en el esquema.
 
+<div align="center">
+<br><img alt="J.HRAS" src="Graph/Speed_measurement_Ex.jpg" width="90%"><br><br>
+</div> 
+
+A partir de los datos de la medición y de acuerdo con el método de los dos puntos, para cada subsección de aforo, se estima la velocidad media **V<sub>m(i)<sub>**, el área **a<sub>i<sub>** y el flujo **q<sub>i<sub>**.
+
+<div align="center">
+<br><img alt="J.HRAS" src="Graph/Speed_measurement_Ex2.jpg" width="35%"><br><br>
+</div> 
+
+Finalmente, se estima el caudal total **Q<sub>T<sub>**, el área total **A<sub>T<sub>** y la velocidad media de toda la sección **V<sub>m<sub>**.
+
+$$Q_{T}=\sum q_{i}=300.1\frac{m^{3}}{s}$$
+$$A_{T}=\sum a_{i}=325.6m^{2}$$
+$$\bar{V}=\frac{Q_{T}}{A_{T}}=0.92\frac{m}{s}$$
 
 ___
 ### Preguntas
