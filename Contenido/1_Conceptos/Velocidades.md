@@ -164,7 +164,7 @@ ___
 ### Preguntas
 1. ¿Qué es la hipótesis de fluido ideal?
 2. ¿Qué es una sección de control?
-2. Determine y grafique el perfil de velocidades de un canal muy ancho (b=600m) con una profundidad media de y=10m y un caudal de 5000 $\frac{m^{3}}{s}$. Considere una densidad relativa de 1.05, una viscosidad de 1.15e<sup>-6</sup> $\frac{m^{2}}{s}$ y una rugosidad absoluta del fondo de 14mm y un coeficiente de Manning n=0.04.
+2. Determine y grafique el perfil de velocidades de un canal muy ancho (b=600m) con una profundidad media de y=10m y un caudal de 5000 $\frac{m^{3}}{s}$. Considere una densidad relativa de 1.05, una viscosidad de 1.15e<sup>-6</sup> $\frac{m^{2}}{s}$, una rugosidad absoluta del fondo de 14mm y un coeficiente de Manning n=0.04.
 3. Estime los coeficientes de Coriolis y Boussinesq para el flujo presentado en el ejemplo 2.
 ___
 
