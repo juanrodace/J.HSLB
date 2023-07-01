@@ -155,7 +155,9 @@ A partir de los datos de la medición y de acuerdo con el método de los dos pun
 Finalmente, se estima el caudal total **Q<sub>T<sub>**, el área total **A<sub>T<sub>** y la velocidad media de toda la sección **V<sub>m<sub>**.
 
 $$Q_{T}=\sum q_{i}=300.1\frac{m^{3}}{s}$$
+
 $$A_{T}=\sum a_{i}=325.6m^{2}$$
+
 $$\bar{V}=\frac{Q_{T}}{A_{T}}=0.92\frac{m}{s}$$
 
 ___
