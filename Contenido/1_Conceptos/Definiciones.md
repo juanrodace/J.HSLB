@@ -120,19 +120,14 @@ T2=bv+2*(yi-ym)*z2   #Ancho total del canal T(m)
 Gx=[0,z2*(yi-ym),z2*(yi-ym)+(bv-T1)/2,z2*(yi-ym)+(bv-T1)/2+ym*z1,z2*(yi-ym)+(bv-T1)/2+ym*z1+b,z2*(yi-ym)+(bv-T1)/2+T1,T2-z2*(yi-ym),T2]
 Gy=[yi,ym,ym,0,0,ym, ym,yi]
 
-plt.figure(figsize=(15,12))
-plt.subplot(511)
+plt.figure(figsize=(15,20))
+plt.subplot(311)
 plt.plot(Gx,Gy,'b')
 plt.grid(True)
 plt.xlabel('x(m)')
 plt.ylabel('y(m)')
 plt.title('Channel Section')
 ```
-<div align="center"> <br>
-<img alt="J.HSLB" src="Graph/Ex_Channel.png" width="800px">
-<br><sub>Esquema de la sección transversal usando librería 'matplotlib'.</sub>
-<br><br></div>
-
 2. Ahora estimaremos el área de flujo **A** para diferentes valores de profundidad **y**.
 
 ```
@@ -146,7 +141,7 @@ Area1 = Ar1(b, y1, z1)
 Area2 = Ar2(b, bv, ym, z1, z2, y2)
 
 # Gráfica del área hidráulica
-plt.subplot(513)
+plt.subplot(312)
 plt.plot(Area1,y1,'r')
 plt.plot(Area2,y2,'r')
 plt.xlabel('Area, $(m^2)$')
@@ -154,12 +149,6 @@ plt.ylabel('Depth, y(m)')
 plt.title('Area of a Coumpund Channel')
 plt.grid(True)
 ```
-
-<div align="center"> <br>
-<img alt="J.HSLB" src="Graph/Ex_Area.png" width="800px">
-<br><sub>Gráfica del área de flujo del canal en función su la profundidad 'y'.</sub>
-<br><br></div>
-
 3. Ahora estimaremos el radio hidráulico **R<sub>h</sub>** para diferentes valores de profundidad **y**.
 
 ```
@@ -171,7 +160,7 @@ Rh1 = Ar1(b, y1, z1)/Pm1(b,y1,z1)
 Rh2 = Ar2(b, bv, ym, z1, z2, y2)/Pm2(b, bv, y2,ym, z1, z2, T1)
 
 # Gráfica del radio hidráulico
-plt.subplot(515)
+plt.subplot(313)
 plt.plot(Rh1,y1,'r')
 plt.plot(Rh2,y2,'r')
 plt.xlabel('Hydraulic radio, (m)')
@@ -180,8 +169,8 @@ plt.title('Hydraulic radio of a Coumpund Channel')
 plt.grid(True)
 ```
 <div align="center"> <br>
-<img alt="J.HSLB" src="Graph/Ex_HydraulicRadio.png" width="800px">
-<br><sub>Gráfica del radio hidráulico del canal en función su la profundidad 'y'.</sub>
+<img alt="J.HSLB" src="Graph/Ex_Geometry.svg" width="600px">
+<br><sub>Gráficas que representan la geometría del canal compuesto. <i>Hecho con matplotlib</i></sub>
 <br><br></div>
 
 ___
