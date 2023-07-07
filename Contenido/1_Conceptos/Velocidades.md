@@ -139,6 +139,13 @@ $$R_{e*}=\frac{V_{*}k_{s}}{\nu}=\frac{(0.023)(0.36e^{-3})}{1.1e^{-6}}=7.66$$
 <sub>Esquema del canal con sección trapezoidal.</sub><br>
 </div> 
 
+2. Se realizó el mismo proceso en lenguaje Python. A continuación, se presentan las gráficas resultantes.
+
+<div align="center">
+<br><img alt="J.HRAS" src="Graph/VelocityProfile_PyEx.svg" width="70%"><br>
+<sub>Esquema de la sección transversal y perfil de velocidades.</sub><br>
+</div> 
+
 ### Ejemplo 2 - Estimación de caudal de un canal natural (Clic para ver en: <a href="Xlsx/Medicion.xlsx" target="_blank"><img src="../../.icons/Xlsx_Icon.jfif" width="22" border="0" /></a>)
 
 Estimar el caudal y velocidad media de flujo de una sección transversal a la cual se le realizó un aforo del flujo con ayuda de un medidor de velocidad por medio del método de dos puntos. Los datos de velocidad registrados se presentan en la siguiente tabla y los puntos de aforo se pueden identificar en el esquema.
