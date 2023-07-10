@@ -82,11 +82,14 @@ Algunos valores típicos de los coeficientes de corrección para algunas geometr
 
 <div align="center">
 
-|                  Canal                  | α | ß |
-|:---------------------------------------:|:-:|:-:|
-| Muy ancho con relación $\frac{y}{b}>10$ |   |   |
-|                                         |   |   |
-|                                         |   |   |
+|                           Canal                            |      α      |      ß      |
+|:----------------------------------------------------------:|:-----------:|:-----------:|
+|               Canales prismáticos 'rectos'.                | 1.03 - 1.36 | 1.01 - 1.12 |
+|         Canales regulares, canaletas y vertederos.         |    1.15     |    1.05     |
+|             Corrientes naturales y torrentes.              |     1.3     |     1.1     |
+|                 Valles de rios inundados.                  |    1.75     |    1.25     |
+| Aguas arriba vertederos u obstrucciones o irregularidades. |    2.08     |     --      |
+
 
 </div> 
 
@@ -115,7 +118,7 @@ Comúnmente se usa el método de **dos puntos**, donde el correntómetro se colo
 
 
 
-### Ejemplo 1 - Perfil de velocidades en un canal trapezoidal. (Clic para ver en: <a href="Xlsx/PerfilVelocidades.xlsx" target="_blank"><img src="../../.icons/Py_Icon.png" width="15" border="0" /></a> <a href="Xlsx/Perfil_Velocidad.py" target="_blank"><img src="../../.icons/Xlsx_Icon.jfif" width="22" border="0" /></a>)
+### Ejemplo 1 - Perfil de velocidades en un canal trapezoidal. (Clic para ver en: <a href="Xlsx/PerfilVelocidades.xlsx" target="_blank"><img src="../../.icons/Py_Icon.png" width="15" border="0" /></a> <a href="Py/Perfil_Velocidad.py" target="_blank"><img src="../../.icons/Xlsx_Icon.jfif" width="22" border="0" /></a>)
 
 Determinar el perfil de velocidades para un canal trapezoidal revestido en concreto, que transporta un caudal de 1 metro cúbico por segundo. El canal tiene un ancho en la base de 0.5 metros y una inclinación de talud (1:z) de 1:0.25. La profundidad de flujo es de 2 metros. Asuma una densidad de 998 $\frac{kg}{m^{3}}$, una viscosidad de 1.1 $e^{-6} \frac{m^{2}}{s}$, una rugosidad de la superficie k<sub>s</sub> de 0.36 mm y un coeficiente de Manning de 0.013.
 
