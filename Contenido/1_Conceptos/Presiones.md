@@ -36,7 +36,7 @@ $$P=\gamma h\pm \rho \int \frac{v_{h}^{2}}{r}$$
 
 En el caso de los canales con pendiente alta (S<sub>o</sub> > 0.1), es necesario considerar el ángulo de inclinación **θ** al momento de realizar el análisis dinámico. Así mismo, si se quiere expresar la altura de presión en términos de la profundidad de flujo **y**, se deberá considerar que **y=d cos θ**. Por lo tanto, la distribución vertical de presiones puede expresarse como:
 
-$$P=\gamma h\cos\theta = \gamma y\cos^{2}\theta$$
+$$P=\gamma h =\gamma d\cos\theta = \gamma y\cos^{2}\theta$$
 
 Si el canal con pendiente alta tiene un perfil longitudinal con curvatura apreciable, la presión debe ser también corregida por el efecto de la curvatura o fuerzas centrífugas.
 
