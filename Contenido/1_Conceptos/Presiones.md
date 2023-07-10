@@ -16,17 +16,31 @@ En el caso de los canales con pendiente baja (S<sub>o</sub> < 0.1), puede consid
 $$P=\gamma h$$
 
 ### Presiones en canal con pendiente baja y fondo curvo 
-Como se describió anteriormente, para canales con pendiente baja se puede considerar el valor de $\cos \theta \approx 1$. Sin embargo, cuando se tiene curvatura en el fondo existen efectos por la aceleración normal al flujo o las fuerzas centrífugas. A partir de la ecuación de euler
+Como se describió anteriormente, para canales con pendiente baja se puede considerar el valor de $\cos \theta \approx 1$. Sin embargo, cuando se tiene curvatura en el fondo existen efectos por la aceleración normal al flujo o las fuerzas centrífugas. A partir de la ecuación de euler se puede demostrar que el gradiente de presiones en la dirección normal depende de la aceleración y esta aceleración puede aproximarse a $a_{n}=v^{2}/r$, donde $v$ es la velocidad de flujo y $r$ el radio de curvatura.  Este flujo curvilíneo puede ser cóncavo o convexo. En el primero, las fuerzas centrífugas apuntan hacia abajo haciendo que la presión en un punto sea mayor que la hidrostática. Caso contrario ocurre con las curvas convexas, donde las fuerzas centrífugas o la aceleración apunta hacia arriba, disminuyendo el efecto de la gravedad y disminuyendo la presión con respecto a la hidrostática. 
 
+Si se asume que la **aceleración** es constante, la distribución vertical de presiones puede expresarse en función de la aceleración **a<sub>n</sub>** y del radio de curvatura **r**:
 
+P=\gamma h (1+\frac{a_{n}}{g})\approx \gamma h (1+\frac{v^{2}}{gr})\rightarrow {\color{DarkBlue} 'C. Cóncavas'}
+P=\gamma h (1-\frac{a_{n}}{g})\approx \gamma h (1-\frac{v^{2}}{gr})\rightarrow {\color{DarkBlue} 'C. Convexas'}
 
+Si se considera la variación de la **aceleración, a<sub>n</sub>**, la presión dependerá de la condición del perfil de velocidades **v<sub>h</sub>** y se puede generalizar como:
+
+$$P=\gamma h\pm \rho \int \frac{v_{h}^{2}}{r}$$
+
+### Presiones en canal con pendiente alta
+
+En el caso de los canales con pendiente alta (S<sub>o</sub> > 0.1), es necesario considerar el ángulo de inclinación **θ** al momento de realizar el análisis dinámico. Así mismo, si se quiere expresar la altura de presión en términos de la profundidad de flujo **y**, se deberá considerar que **y=d cos θ**. Por lo tanto, la distribución vertical de presiones puede expresarse como:
+
+$$P=\gamma h\cos\theta = \gamma y\cos^{2}\theta$$
+
+Si el canal con pendiente alta tiene un perfil longitudinal con curvatura apreciable, la presión debe ser también corregida por el efecto de la curvatura o fuerzas centrífugas.
 
 ___
 ### Preguntas
-1. ¿Qué es la hipótesis de fluido ideal?
-2. ¿Qué es una sección de control?
-2. Determine y grafique el perfil de velocidades de un canal muy ancho (b = 600 m) con una profundidad media de y = 10 m y un caudal de 5000 $\frac{m^{3}}{s}$. Considere una densidad relativa de 1.05, una viscosidad de 1.15e<sup>-6</sup> $\frac{m^{2}}{s}$, una rugosidad absoluta del fondo de 14 mm y un coeficiente de Manning n=0.04.
-3. Estime los coeficientes de Coriolis y Boussinesq para el flujo presentado en el ejemplo 2.
+1. ¿Describa que es un flujo paralelo?
+2. ¿Cómo se debe considerar la distribución de presiones en un flujo rápidamente variado?
+3. Determine y grafique la distribución de presiones de un tramo de canal con perfil curvo convexo, que transporta aguas negras (DR=1.03) a un ritmo de 7 m<sup>3</sup>/s. La sección transversal del canal es rectangular con un ancho de 3 metros y la profundidad de flujo es de 2 metros. El radio de curvatura hasta el fondo del canal es de 20 metros.  Compare el resultado con la distribución de presiones hidrostática.
+4. Estime la fuerza debida a la presión en la sección transversal del punto anterior.         
 ___
 
 ### Referencias
@@ -43,14 +57,11 @@ ___
 | Versión | Descripción                                                    |                    Autor                    | Horas |
 |:-------:|:---------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2023.07 | Versión inicial, definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2023.07 | Inclusión de conceptos, esquemas y ejemplos.                   | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2023.07 | Inclusión de conceptos, esquemas y ejemplos.                   | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
-| [:arrow_backward:Anterior](Clasificacion.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda](https://github.com/juanrodace/J.HSLB/discussions) | [Siguiente:arrow_forward:](Presiones.md) |
-|----------------------------------------------|-----------------------------------|----------------------------------------------------------------------|------------------------------------------|
+| [:arrow_backward:Anterior](Velocidades.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda](https://github.com/juanrodace/J.HSLB/discussions) | [Siguiente:arrow_forward:](../2_Energia/Energia.md) |
+|--------------------------------------------|-----------------------------------|----------------------------------------------------------------------|-----------------------------------------------------|
 
 _J.HSLB es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../License.md)._
 
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [juanrodace](https://github.com/juanrodace) en GitHub._
-
-
-[^1]: Introduction to Fluid Mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011.
