@@ -10,6 +10,10 @@ Keywords: `Hydraulics` `Open channel flow` `Pressuure distribution` `Uniform flo
 
 En canales o conductos con flujo a superficie libre es común asumir la distribución vertical de presiones como hidrostática, dependiendo únicamente del peso del líquido o en términos prácticos de la densidad y la profundidad del flujo. Sin embargo, es importante conocer que existen factores que pueden cambiar dicha distribución hidrostática, como es el caso de la curvatura del fondo o los canales alta pendiente. Considerar adecuadamente la presión es importante al momento de utilizar la ecuación fundamental del _momentum_.
 
+<div align="center">
+<img alt="J.HRAS" src="Graph/Pressure.png" width="80%">
+</div>
+
 ### Presiones en canal con pendiente baja y fondo recto 
 En el caso de los canales con pendiente baja (S<sub>o</sub> < 0.1), puede considerarse que el valor del $\cos \theta$ se aproxima a $\approx 1$. Así mismo, al no tener curvatura en el fondo, no se tendrán efectos por la aceleración normal al flujo o fuerzas centrífugas. Por lo tanto, para un flujo **paralelo** es válido aplicar la ley hidrostática a la distribución vertical de presiones y su expresión se puede considerar como:
 
@@ -40,7 +44,7 @@ ___
 ### Preguntas
 1. ¿Describa que es un flujo paralelo?
 2. ¿Cómo se debe considerar la distribución de presiones en un flujo rápidamente variado?
-3. Determine y grafique la distribución de presiones de un tramo de canal con perfil curvo convexo, que transporta aguas negras (DR=1.03) a un ritmo de 7 m<sup>3</sup>/s. La sección transversal del canal es rectangular con un ancho de 3 metros y la profundidad de flujo es de 2 metros. El radio de curvatura hasta el fondo del canal es de 20 metros.  Compare el resultado con la distribución de presiones hidrostática.
+3. Determine y grafique la distribución de presiones de un tramo de canal de baja pendiente con perfil curvo convexo, que transporta aguas negras (DR=1.03) a un ritmo de 7 m<sup>3</sup>/s. La sección transversal del canal es rectangular con un ancho de 3 metros y la profundidad de flujo es de 2 metros. El radio de curvatura hasta el fondo del canal es de 20 metros. Asuma a) aceleración constante y la respectiva aproximación b) perfil de velocidades uniforme igual a la velocidad media.  Compare el resultado con la distribución de presiones hidrostática. 
 4. Estime la fuerza debida a la presión en la sección transversal del punto anterior.         
 ___
 
