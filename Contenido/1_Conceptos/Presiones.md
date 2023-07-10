@@ -62,7 +62,7 @@ ___
 | Versión | Descripción                                                    |                    Autor                    | Horas |
 |:-------:|:---------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2023.07 | Versión inicial, definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2023.07 | Inclusión de conceptos, esquemas y ejemplos.                   | [juanrodace](https://github.com/juanrodace) |  2.0  |
+| 2023.07 | Inclusión de conceptos, esquemas y ejemplos.                   | [juanrodace](https://github.com/juanrodace) |  3.0  |
 
 | [:arrow_backward:Anterior](Velocidades.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda](https://github.com/juanrodace/J.HSLB/discussions) | [Siguiente:arrow_forward:](../2_Energia/Energia.md) |
 |--------------------------------------------|-----------------------------------|----------------------------------------------------------------------|-----------------------------------------------------|
