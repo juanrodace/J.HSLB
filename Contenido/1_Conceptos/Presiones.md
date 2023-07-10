@@ -20,8 +20,9 @@ Como se describió anteriormente, para canales con pendiente baja se puede consi
 
 Si se asume que la **aceleración** es constante, la distribución vertical de presiones puede expresarse en función de la aceleración **a<sub>n</sub>** y del radio de curvatura **r**:
 
-P=\gamma h (1+\frac{a_{n}}{g})\approx \gamma h (1+\frac{v^{2}}{gr})\rightarrow {\color{DarkBlue} 'C. Cóncavas'}
-P=\gamma h (1-\frac{a_{n}}{g})\approx \gamma h (1-\frac{v^{2}}{gr})\rightarrow {\color{DarkBlue} 'C. Convexas'}
+$$P=\gamma h (1+\frac{a_{n}}{g})\approx \gamma h (1+\frac{v^{2}}{gr})\rightarrow {\color{DarkBlue} 'C. Cóncavas'}$$
+
+$$P=\gamma h (1-\frac{a_{n}}{g})\approx \gamma h (1-\frac{v^{2}}{gr})\rightarrow {\color{DarkBlue} 'C. Convexas'}$$
 
 Si se considera la variación de la **aceleración, a<sub>n</sub>**, la presión dependerá de la condición del perfil de velocidades **v<sub>h</sub>** y se puede generalizar como:
 
