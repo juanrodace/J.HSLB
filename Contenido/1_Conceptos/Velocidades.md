@@ -1,12 +1,12 @@
-## Distribución de velocidades <a href="../.Slides/HSLB-4-Velocidades.pdf" target="_blank"><img src="../../.icons/Slides_Icon.png" width="25" border="0" /></a>
+## Distribución de velocidades <a href="../.Slides/HSLB-4-Velocidades-Presiones.pdf" target="_blank"><img src="../../.icons/Slides_Icon.png" width="25" border="0" /></a>
 
 Keywords: `Hydraulics` `Open channel flow` `Velocity distribution` `Average velocity` `Discharge`
 
 <div align="center">
-<img alt="J.HRAS" src="Graph/Arroyo_LasAnimas.jpg" width="100%">
+<img alt="J.HRAS" src="Graph/ChannelFlow.jpg" width="100%">
 </div>
 
-> Arroyo Las Ánimas, Cesar, Col. _Fuente propia_
+> En la ilustración, canal de aguas lluvia en White Oak Ave. _Robley, Feather_.
 
 En dinámica de fluidos, la velocidad **'V'** es una función vectorial del flujo, que depende del espacio y el tiempo _(en el caso de flujo no permanente)_. En el caso de los sistemas a presión, la distribución o perfil de velocidades en una sección transversal es axi-simétrico _(simétrico con respecto al eje)_, mientras que en sistemas a superficie libre no se presenta un perfil simétrico por las condiciones de frontera. 
 
@@ -186,6 +186,7 @@ ___
 - Open Channel Flow. Osman Akan, A. Elsevier Ltd., 2006.
 - Introducción a la hidráulica de canales. Duarte A. Carlos A. 4a Ed., Editorial Universidad Nacional de Colombia. 2016.
 - Flow in open channels. Subramanya K. 3th Ed., Tata McGraw-Hill Publishing. 2009.
+- Hidráulica de canales. Sotelo A., Gilberto. UNAM México, Facultad de Ingeniería. 2002. 
 
 ### Control de versiones
 
