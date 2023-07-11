@@ -31,8 +31,13 @@ A continuación, se presenta el contenido general del curso. Si desea acceder a 
 | [Clasificación de flujos.](Contenido/1_Conceptos/Clasificacion.md)   | Se presenta la clasificación de los sistemas hidráulicos a superficie libre eb función de sus variables y características.                                                                                                                              |
 | [Distribución de velocidades.](Contenido/1_Conceptos/Velocidades.md) | Se presentan las características y propiedades de la distribución de velocidades típica en la sección transversal de cauce natural y artificial.                                                                                                        |
 | [Distribución de presiones.](Contenido/1_Conceptos/Presiones.md)     | Se presentan las características y propiedades de la distribución de presiones en una sección transversal del transporte de fluidos a a superficie libre.                                                                                               |
-| [Continuidad.](Contenido/1_Conceptos/Continuidad.md)                 | Se presenta la ecuación fundamental de continuidad o conservación de la masa aplicada al transporte de fluidos en sistemas a superficie libre.                                                                                                          |
 
+### [2. Energía](Contenido/2_Energia/Readme.md) 
+
+| Microcontenido                                                  | Detalle                                                                                                                                                                                            |
+|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Conservación de la Energía.](Contenido/2_Energia/Energia.md)   | Se presenta la ecuación fundamental de conservación de la energía en canales o conductos con flujo a superficie libre en condición de flujo permanente, ecuación de Bernoulli, linea de corriente. |
+| [Energía Específica.](Contenido/2_Energia/EnergiaEspecifica.md) | Se presenta la definición de la energía específica y curva específica.                                                                                                                             |
 
 ### 2. Ecuación de Energía
 
