@@ -1,4 +1,4 @@
-<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBanner.jpg" alt="J.HRAS" width="100%" border="0" /></a></div>
+<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBanner.jpg" alt="J.HSLB" width="100%" border="0" /></a></div>
 
 
 <div align="center">
@@ -15,6 +15,23 @@ El transporte de los líquidos es esencial en la naturaleza y en gran parte de l
 En este curso, se estudiarán las características del transporte de líquidos en condiciones de flujo a superficie libre, sus características, clasificación, usos y aplicaciones. Es importante resaltar que el análisis del flujo en canales abiertos es necesario para la planeación, diseño y operación de todo tipo de proyectos que involucren recursos hidráulicos, tales como suministro de agua, generación de energía, gestión del riesgo, estructuras en ríos y drenaje urbano.
 
 *Clic para ver presentación:* <a href="Contenido/.Slides/HSLB-1-Introducción.pdf" target="_blank"><img src=".icons/Slides_Icon.png" width="20" border="0" /></a> 
+
+## Contenido
+
+A continuación, se presenta el contenido general del curso. Si desea acceder a un cronograma detallado, ingrese acá: <a href="Contenido/Cronograma.xlsx" target="_blank"><img src=".icons/Xlsx_Icon.jfif" width="22" border="0" /></a>). 
+
+### [1. Conceptos Básicos](Contenido/1_Conceptos/Readme.md) 
+
+| Microcontenido                                                       | Detalle                                                                                                                                                                                                                                                 |
+|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Definiciones.](Contenido/1_Conceptos/Definiciones.md)               | Se presentan los conceptos y definiciones básicas del transporte de fluidos, propiedades de flujo, características geométricas, cinéticas y dinámicas, y características en general del transporte de fluidos en condición de flujo a superficie libre. |
+| [Clasificación de flujos.](Contenido/1_Conceptos/Clasificacion.md)   | Se presenta la clasificación de los sistemas hidráulicos a superficie libre eb función de sus variables y características.                                                                                                                              |
+| [Distribución de velocidades.](Contenido/1_Conceptos/Velocidades.md) | Se presentan las características y propiedades de la distribución de velocidades típica en la sección transversal de cauce natural y artificial.                                                                                                        |
+| [Distribución de presiones.](Contenido/1_Conceptos/Presiones.md)     | Se presentan las características y propiedades de la distribución de presiones en una sección transversal del transporte de fluidos a a superficie libre.                                                                                               |
+| [Continuidad.](Contenido/1_Conceptos/Continuidad.md)                 | Se presenta la ecuación fundamental de continuidad o conservación de la masa aplicada al transporte de fluidos en sistemas a superficie libre.                                                                                                          |
+
+
+### 2. Ecuación de Energía
 
 ## Resultados de aprendizaje
 
@@ -80,19 +97,3 @@ Particularmente, en cada tercio se tendrán en cuenta los siguientes porcentajes
 - Evaluaciones teóricas orales, frente a las cuales el estudiante contesta o presenta una respuesta breve basada en la preparación de las prácticas e identificación de conceptos y procedimientos.
 - Evaluación de informes escritos de prácticas de laboratorio.
 
-## Contenido
-
-A continuación, se presenta el contenido general del curso. Si desea acceder a un cronograma detallado, ingrese acá: <a href="Contenido/Cronograma.xlsx" target="_blank"><img src=".icons/Xlsx_Icon.jfif" width="22" border="0" /></a>). 
-
-### [1. Conceptos Básicos](Contenido/1_Conceptos/Readme.md) 
-
-| Microcontenido                                                       | Detalle                                                                                                                                                                                                                                                 |
-|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Definiciones.](Contenido/1_Conceptos/Definiciones.md)               | Se presentan los conceptos y definiciones básicas del transporte de fluidos, propiedades de flujo, características geométricas, cinéticas y dinámicas, y características en general del transporte de fluidos en condición de flujo a superficie libre. |
-| [Clasificación de flujos.](Contenido/1_Conceptos/Clasificacion.md)   | Se presenta la clasificación de los sistemas hidráulicos a superficie libre eb función de sus variables y características.                                                                                                                              |
-| [Distribución de velocidades.](Contenido/1_Conceptos/Velocidades.md) | Se presentan las características y propiedades de la distribución de velocidades típica en la sección transversal de cauce natural y artificial.                                                                                                        |
-| [Distribución de presiones.](Contenido/1_Conceptos/Presiones.md)     | Se presentan las características y propiedades de la distribución de presiones en una sección transversal del transporte de fluidos a a superficie libre.                                                                                               |
-| [Continuidad.](Contenido/1_Conceptos/Continuidad.md)                 | Se presenta la ecuación fundamental de continuidad o conservación de la masa aplicada al transporte de fluidos en sistemas a superficie libre.                                                                                                          |
-
-
-### 2. Ecuación de Energía
