@@ -1,4 +1,4 @@
-## Conservación de la Energía <a href="../.Slides/HSLB-5-Energia.pdf" target="_blank"><img src="../../.icons/Slides_Icon.png" width="25" border="0" /></a>
+## Energía en flujo a superficie libre <a href="../.Slides/HSLB-5-Energia.pdf" target="_blank"><img src="../../.icons/Slides_Icon.png" width="25" border="0" /></a>
 
 Keywords: `Hydraulics` `Open channel flow` `Energy` `Energy conservation` `Bernoulli`
 
@@ -8,7 +8,31 @@ Keywords: `Hydraulics` `Open channel flow` `Energy` `Energy conservation` `Berno
 
 > Confluence of the Colorado River and Blue River in the Colorado Rockies. _@amstobar, reddit_.
  
+Una de las ecuaciones fundamentales de la mecánica de fluidos se conoce como la **conservación de la energía**. Esta ecuación parte del principio de conservación de la
+misma, con la conveniencia de separar la energía mecánica de la térmica. Así mismo, se considera la transformación de energía mecánica en térmica como resultado de los efectos de fricción comúnmente denominados pérdidas de energía. Por lo tanto, la ecuación de conservación de la energía en la mecánica de fluidos se convierte en un balance de energía mecánica. 
 
+
+### Energía mecánica
+
+La **energía mecánica** se define como *la forma de energía que se puede convertir
+completa y directamente a trabajo mecánico por medio de un dispositivo
+mecánico ideal como lo es una turbina ideal*. Las formas comunes de la energía
+mecánica son la energía cinética y la potencial. Por otro lado, en cualquier flujo está presente la presión, y aunque esta no es una forma de energía, la fuerza asociada a la presión que actúa sobre un fluido a lo largo de una distancia produce trabajo, conocido como **trabajo del flujo** o convenientemente denominado energía de flujo. Entonces, la energía mecánica de un flujo por unidad de masa se expresa como:
+
+$$e=\frac{v^{2}}{2}+gz+\frac{P}{\rho}$$
+
+Donde cada uno de los términos representa la energía cinética, energía potencial y energía de flujo respectivamente.  Ahora bien, con frecuencia es conveniente representar de manera gráfica el nivel de la energía mecánica, usando alturas, con la finalidad de facilitar la visualización de los diversos términos de la ecuación. Esto se realiza al dividir cada término por la constante gravitacional *g*, obteniendo la **caga total** en un punto como:
+
+$$H=\frac{v^{2}}{2g}+z+\frac{P}{\gamma}$$
+
+### Conservación de la energía
+
+Ahora bien, consecuentes con el principio de conservación de la energía y considerando la separación de la energía térmica, podemos afirmar que el cambio o variación de la energía mecánica en un flujo *incompresible* será equivalente a las pérdidas de energía y al trabajo mecánico suministrado o extraído del fluido por medio de una máquina.  
+
+#### Ecuación de Bernoulli
+
+
+### Energía en canales o conductos a superficie libre
 
 
 ___
